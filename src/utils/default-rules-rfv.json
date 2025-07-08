@@ -1,0 +1,79 @@
+{
+  "recency": [
+    {
+      "min": 0,
+      "max": 7,
+      "score": 5
+    },
+    {
+      "min": 8,
+      "max": 15,
+      "score": 4
+    },
+    {
+      "min": 16,
+      "max": 30,
+      "score": 3
+    },
+    {
+      "min": 31,
+      "max": 60,
+      "score": 2
+    },
+    {
+      "min": 61,
+      "score": 1
+    }
+  ],
+  "frequency": [
+    {
+      "min": 8,
+      "score": 5
+    },
+    {
+      "min": 5,
+      "max": 7,
+      "score": 4
+    },
+    {
+      "min": 3,
+      "max": 4,
+      "score": 3
+    },
+    {
+      "min": 2,
+      "max": 2,
+      "score": 2
+    },
+    {
+      "min": 1,
+      "max": 1,
+      "score": 1
+    }
+  ],
+  "value": [
+    {
+      "min": 1000,
+      "score": 5
+    },
+    {
+      "min": 600,
+      "score": 4
+    },
+    {
+      "min": 300,
+      "max": 599,
+      "score": 3
+    },
+    {
+      "min": 100,
+      "max": 299,
+      "score": 2
+    },
+    {
+      "min": 0,
+      "max": 99,
+      "score": 1
+    }
+  ]
+}

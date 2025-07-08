@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="icon" href="/public/img/vendaz-favicon.jpeg" type="image/jpeg">
+
+  <title> RECOMENDA ZAP - Tables</title>
+
+  <!-- Custom fonts for this template -->
+  <link href="/public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/public/css/sb-admin-2.min.css" rel="stylesheet">
+
+  <link href="/public/css/details-control.css" rel="stylesheet">
+
+  <link href="/public/css/whatsapp-card-chat.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+  <script defer src="/public/js/notify.js"></script>
+
+  <!-- Custom styles for this page -->
+  <link href="/public/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+</head>
+<style>
+  td.details-control {
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+  }
+</style>
+
+<body id="page-top">
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+        <div class="sidebar-brand-icon">
+          <img src="/public/img/vendaz-logo-72dpi.png" alt="Logo" style="height: 50px;"> <!-- Ajuste a altura conforme necessário -->
+        </div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item ">
+        <a class="nav-link" href="/">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+
+
+      <li class="nav-item active">
+        <a class="nav-link" href="/send-recommendations">
+          <i class="fab fa-whatsapp"></i>
+          <span>Enviar Recomendações</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/recommendation-dispatches">
+          <i class="fas fa-tachometer-alt"></i>
+          <span>Acompanhar Envios</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/rfv">
+          <i class="fas fa-fw fa-box-open"></i>
+          <span>RFV</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/clients">
+          <i class="fas fa-users"></i>
+          <span>Clientes</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/products">
+          <i class="fas fa-fw fa-box-open"></i>
+          <span>Produtos</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/purchase-history">
+          <i class="fas fa-fw fa-history"></i>
+          <span>Histórico de Vendas</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <form class="form-inline">
+            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+              <i class="fa fa-bars"></i>
+            </button>
+          </form>
+
+          <!-- Topbar Search -->
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input onclick="alert('Em desenvolvimento...')" type="text" class="form-control bg-light border-0 small" placeholder="Procurar..."
+                aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Procurar..." aria-label="Search"
+                      aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1 d-none">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">3+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Alerts Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 12, 2019</div>
+                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-success">
+                      <i class="fas fa-donate text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 7, 2019</div>
+                    $290.29 has been deposited into your account!
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                      <i class="fas fa-exclamation-triangle text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 2, 2019</div>
+                    Spending Alert: We've noticed unusually high spending for your account.
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1 d-none">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">7</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                <h6 class="dropdown-header">
+                  Message Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="/public/img/undraw_profile_1.svg" alt="...">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Hi there! I am wondering if you can help me with a
+                      problem I've been having.</div>
+                    <div class="small text-gray-500">Emily Fowler · 58m</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="/public/img/undraw_profile_2.svg" alt="...">
+                    <div class="status-indicator"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">I have the photos that you ordered last month, how
+                      would you like them sent to you?</div>
+                    <div class="small text-gray-500">Jae Chun · 1d</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="/public/img/undraw_profile_3.svg" alt="...">
+                    <div class="status-indicator bg-warning"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">Last month's report looks great, I am very happy with
+                      the progress so far, keep up the good work!</div>
+                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://xsgames.co/randomusers/assets/avatars/male/0.jpg" alt="...">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone
+                      told me that people say this to all dogs, even if they aren't good...</div>
+                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+              </div>
+            </li>
+
+            <!-- <div class="topbar-divider d-none d-sm-block"></div> -->
+            <div class="topbar-divider d-none"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                  <%= user.name %>
+                </span>
+                <img class="img-profile rounded-circle" src="<%= user.photo %>">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Perfil
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Configurações
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Sair
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-flex justify-content-between">
+            <div>
+              <h1 class="h3 mb-2 text-gray-800">Enviar Recomendações para Segmentos RFV</h1>
+              <p class="mb-4">Selecione a categoria RFV para segmentar sua mensagem personalizada. </p>
+            </div>
+
+            <div class="dropdown mb-4">
+              <button class="btn btn-primary dropdown-toggle d-flex align-items-center gap-2 px-4 py-2 rounded-pill shadow-sm" type="button"
+                data-toggle="dropdown" id="rfvDropdownButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="bi bi-funnel-fill"></i> Selecionar Categorias RFV
+              </button>
+
+              <div class="dropdown-menu p-4 shadow rounded-4 border-0" style="min-width: 260px;" aria-labelledby="rfvDropdownButton">
+                <div class="form-check mb-2">
+                  <input class="form-check-input rfv-checkbox" type="checkbox" value="excellent" id="chkCampeoes" checked>
+                  <label class="form-check-label" for="chkCampeoes">🔥 Campeões</label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input rfv-checkbox" type="checkbox" value="good" id="chkLeais" checked>
+                  <label class="form-check-label" for="chkLeais">❤️ Leais</label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input rfv-checkbox" type="checkbox" value="average" id="chkOportunidades" checked>
+                  <label class="form-check-label" for="chkOportunidades">🌤 Oportunidades</label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input rfv-checkbox" type="checkbox" value="weak" id="chkPerdendo" checked>
+                  <label class="form-check-label" for="chkPerdendo">❄️ Perdendo</label>
+                </div>
+                <div class="form-check mb-3">
+                  <input class="form-check-input rfv-checkbox" type="checkbox" value="inactive" id="chkInativos" checked>
+                  <label class="form-check-label" for="chkInativos">🧊 Inativos</label>
+                </div>
+
+                <div class="text-end">
+                  <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-3" id="applyRfvFilters">Aplicar</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="form-check form-switch ">
+            <input class="form-check-input" type="checkbox" id="toggleSelectAll" checked>
+            <label class="form-check-label" for="toggleSelectAll">
+              Testar envio de recomendação selecionando clientes
+            </label>
+          </div>
+          <small class="text-muted d-block mb-3">
+            <i class="fas fa-info-circle"></i> Ao desabilitar, todos os clientes da categoria selecionada receberão a recomendação.
+          </small>
+
+          <!-- <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
+                        For more information about DataTables, please visit the <a target="_blank" href="https://datatables.net">official DataTables
+                            documentation</a>.</p> -->
+
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <!-- <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Dados RFV</h6>
+                        </div> -->
+            <div class="card-body">
+              <div class="table-responsive">
+                <table id="dataTableRecommendations" class="table table-bordered" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th></th> <!-- ícone de expandir -->
+                      <th>Cliente</th>
+                      <th>Classificação</th>
+                      <th>Telefone</th>
+                      <th>Ativo</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mensagem Personalizável -->
+          <div class="card shadow mb-4">
+            <div class="card-header d-flex align-items-center justify-content-between items-center py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Mensagem Personalizável</h6>
+
+              <% const keys=Object.keys(templatesFromNode); %>
+
+                <div id="templates-data" data-templates='<%- JSON.stringify(templatesFromNode) %>'></div>
+
+                <div class="form-group m-0 p-0 w-50 mt-2">
+                  <select id="messageStyleSelect" class="selectpicker form-control" data-style="btn-outline-secondary"
+                    title="Selecione o modelo de mensagem">
+                    <% keys.forEach(function(key) { %>
+                      <option value="<%= key %>" <%=selectedCategory===key ? 'selected' : '' %>>
+                        <%= labels[key] %>
+                      </option>
+                      <% }); %>
+                  </select>
+                </div>
+
+            </div>
+            <div class="card-body">
+              <p class="mb-4">Variáveis: <span class="badge bg-light bg-opacity-25 text-black">{{nome}}</span>
+                <span class="badge bg-light bg-opacity-25 text-black">{{produtos_recomendados}}</span>
+                <span class="badge bg-light bg-opacity-25 text-black">{{produto1}}</span>
+                <span class="badge bg-light bg-opacity-25 text-black">{{loja}}</span>
+              </p>
+
+              <textarea class="form-control mb-3" id="textAreaTemplateMessage" rows="6"></textarea>
+
+              <!-- <button id="copyBtn" class="btn btn-success btn-sm copy-btn">
+                <i class="fas fa-copy me-2"></i> Copiar
+              </button> -->
+
+              <!-- <button id="copyBtn" class="btn btn-secondary btn-sm copy-btn">
+                <i class="fas fa-edit me-1"></i> Editar
+              </button> -->
+            </div>
+          </div>
+
+          <!-- Pré-visualização da Mensagem -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Pré-visualização da Mensagem</h6>
+            </div>
+            <div class="card-body">
+              <!-- Card de pré-visualização do WhatsApp -->
+              <div class="whatsapp-card">
+                <div class="whatsapp-header">
+                  <img src="/public/img/whatsapp-avatar.jpg" alt="Avatar" class="whatsapp-avatar">
+                  <div>
+                    <div class="fw-bold">Alice</div>
+                    <div class="small">online</div>
+                  </div>
+                </div>
+
+                <div class="whatsapp-body d-flex flex-column">
+                  <!-- Mensagem recebida -->
+                  <!-- <div class="message received">
+                    Olá! Como posso ajudar?
+                    <div class="time">10:30</div>
+                  </div> -->
+
+                  <!-- Sua mensagem -->
+                  <div id="messagePreview" class="message sent">
+                    <strong>Olá Alice! 👋</strong>
+
+                    <p>Ficamos muito felizes com sua compra recente em nossa loja! Como você é um cliente especial, selecionamos alguns produtos que
+                      combinam perfeitamente com seu estilo:</p>
+
+                    <ul>
+                      <li>🎽 <strong>Tênis Nike Air Max</strong> - Conforto e estilo para seu dia a dia</li>
+                      <li>👕 <strong>Camiseta Adidas Originals</strong> - Conforto e estilo para você</li>
+                    </ul>
+
+                    <!-- <p>💰 <strong>Oferta exclusiva</strong>: Use o cupom <span class="badge bg-success">ALICE10</span> para 10% de desconto em sua
+                      próxima compra!</p> -->
+
+                    <p>Aproveite agora mesmo!</p>
+                    <!-- <p>Aproveite agora mesmo ➡️ <a href="#" class="text-decoration-none">Ver recomendações</a></p> -->
+
+                    <div class="time">11:45 <i class="fas fa-check-double"></i></div>
+                  </div>
+
+                  <div class=" whatsapp-footer"></div>
+                </div>
+
+                <!-- Opções de personalização -->
+                <!-- <div class="card mt-4">
+                <div class="card-body">
+                  <h5 class="card-title">Personalizar Mensagem</h5>
+                  <div class="mb-3">
+                    <label for="nomeInput" class="form-label">Nome do cliente</label>
+                    <input type="text" class="form-control" id="nomeInput" placeholder="Digite o nome">
+                  </div>
+                  <div class="mb-3">
+                    <label for="produtosInput" class="form-label">Produtos recomendados</label>
+                    <input type="text" class="form-control" id="produtosInput" placeholder="Digite os produtos">
+                  </div>
+                </div>
+              </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4 text-center d-flex justify-content-center">
+            <button id="sendMessagBtn" class="btn btn-success mt-2 d-flex align-items-center">
+              <i class="fab fa-whatsapp mr-2"></i>
+              Enviar mensagens para os clientes</button>
+          </div>
+
+          <!-- /.container-fluid -->
+
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Feito com ❤️ por Vendaz Transformando ideias em realidade</span>
+            </div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
+
+      </div>
+      <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Sair Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Sair" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="/login">Sair</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="/public/vendor/jquery/jquery.min.js"></script>
+    <script src="/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="/public/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="/public/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="/public/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/public/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="/public/js/demo/datatables-demo.js"></script>
+
+    <script src="/public/js/handle-details-control.js"></script>
+    <script src="/public/js/handle-checkbox.js"></script>
+
+    <script>
+      // Função que retorna array com as categorias marcadas
+      function getSelectedRfvCategories() {
+        // 1) Pega os checados na UI
+        const checked = Array.from(document.querySelectorAll('.rfv-checkbox:checked'))
+          .map(input => input.value);
+
+        if (checked.length) {
+          return checked;
+        }
+
+        // 2) Se não houver nenhum checkbox marcado, pega da URL
+        const params = new URLSearchParams(window.location.search);
+        const fromUrl = params.getAll('rfvCategories');
+        return fromUrl;
+      }
+
+      // 1) Gera a query string com múltiplos parâmetros (sem checar length, pois sempre há ≥1)
+      function buildRfvQuery() {
+        return getSelectedRfvCategories()
+          .map(c => `rfvCategories=${encodeURIComponent(c)}`)
+          .join('&');
+      }
+
+      // Ao clicar em "Aplicar", você pode disparar um evento ou recarregar a lista:
+      document.getElementById('applyRfvFilters').addEventListener('click', () => {
+        const url = new URL(window.location.href);
+        // limpa todas as entradas antigas
+        url.searchParams.delete('rfvCategories');
+        // adiciona cada categoria de volta
+        getSelectedRfvCategories().forEach(c => url.searchParams.append('rfvCategories', c));
+        window.location.href = url.pathname + url.search;
+      });
+
+      handleDetailsControl(
+        "#dataTableRecommendations",
+        "snapshot",
+        "Produtos recomendados",
+        4,
+        `/api/recommendations?${buildRfvQuery()}`,
+        [
+          {
+            data: null,
+            orderable: false,
+            render: (data, type, row) => {
+              return `<div class="text-center px-0"> <input type="checkbox" class="form-check-input row-checkbox"></div>
+        `;
+            },
+          },
+          {
+            data: null,
+            orderable: false,
+            className: "details-control",
+            defaultContent: '<i class="fas fa-chevron-down"></i>',
+          },
+          { data: "name", title: "Nome" },
+          {
+            data: null,
+            render: function (data, type, row) {
+              const score = row.rfvTotalScore || "N/A";
+              const labelMap = {
+                inactive: ["secondary", "Inativo"],
+                weak: ["danger", "Perdendo"],
+                average: ["warning", "Oportunidades"],
+                good: ["info", "Leais"],
+                excellent: ["success", "Campeões"],
+              };
+
+              const [color, label] = labelMap[data.rfvClassificationLabel] || ["light", data.rfvClassificationLabel];
+
+              return `<span class="badge badge-${color}" data-bs-toggle="tooltip" title="Score: ${score}">${label || 'Não calculado'}</span>`;
+            },
+          },
+          {
+            data: "phone",
+            title: "Telefone",
+          },
+          { data: "active", title: "Ativo" },
+
+        ],
+        function (row, data) {
+          $(row).attr("data-products", JSON.stringify(data.products));
+          $(row).attr("data-client-id", data.clientId);
+        },
+        "pesquisar cliente"
+      );
+
+      handleCheckbox("#dataTableRecommendations")
+
+      function getTextArea() {
+        // Seleciona o texto da textarea
+        const textarea = document.getElementById('textAreaTemplateMessage');
+        textarea.select();
+        textarea.setSelectionRange(0, 99999); // Para dispositivos móveis
+
+        // Usando a API de Clipboard
+        return textarea.value
+      }
+
+      // Dentro do evento de mudança do product-checkbox
+      $(document).on("change", ".product-checkbox", function () {
+        const productId = $(this).data("product-id");
+        const tr = $(this).closest("tr").prev(); // Linha pai (cliente)
+        const clientId = tr.data("client-id");
+        const isChecked = this.checked;
+
+        // Garante que o cliente existe no objeto
+        if (!checkedProductsByClient[clientId]) {
+          checkedProductsByClient[clientId] = new Set();
+        }
+
+        // Atualiza o Set conforme o checkbox
+        if (isChecked) {
+          checkedProductsByClient[clientId].add(productId);
+        } else {
+          checkedProductsByClient[clientId].delete(productId);
+        }
+      });
+
+      document.getElementById("sendMessagBtn").addEventListener("click", async function (e) {
+        e.preventDefault();
+
+        // Armazena o elemento do botão
+        const $btn = $(this);
+        // Adiciona estado de loading
+        $btn.prop('disabled', true);
+        $btn.html(`
+      <span class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span> 
+      Enviando...
+    `);
+
+        const message = getTextArea();
+        const selectedClients = [];
+
+        // Iterar sobre TODOS os clientes com produtos selecionados
+        Object.keys(checkedProductsByClient).forEach(clientId => {
+          const products = Array.from(checkedProductsByClient[clientId]).map(productId => ({ productId }));
+
+          if (products.length > 0) {
+            selectedClients.push({
+              clientId,
+              products
+            });
+          }
+        });
+
+        const body = {
+          message,
+          rfvCategories: getSelectedRfvCategories(),
+          currentStoreId: "<%= currentStore.id %>"
+        }
+
+        if (document.getElementById('toggleSelectAll').checked) {
+          Object.assign(body, { selectedClients })
+        }
+
+        fetch("/api/send-recommendation", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(body)
+        })
+          .then(async (resp) => {
+            if (!resp.ok) { // Verifica se o status NÃO está entre 200-299
+              throw new Error(`Erro ${resp.status}: ${resp.statusText}`);
+            }
+
+            const { recommendationDispatchId } = await resp.json()
+
+            window.location.href = `/recommendation-dispatches/${recommendationDispatchId}`
+          })
+          .catch(erro => {
+            console.error("Erro:", erro);
+            // alert("Erro ao enviar");
+            notyf.error('Erro ao enviar mensagem');
+          }).finally(() => {
+            $btn.prop('disabled', false);
+            $btn.html(`
+        <i class="fab fa-whatsapp mr-2"></i>
+        Enviar mensagens para os clientes
+      `);
+          })
+      });
+
+      // document.getElementById("copyBtn").addEventListener("click", function () {
+      //   // Usando a API de Clipboard
+      //   navigator.clipboard.writeText(getTextArea())
+      //     .then(() => {
+      //       // Feedback visual (opcional)
+      //       const icon = this.querySelector("i");
+      //       icon.classList.remove("fa-copy");
+      //       icon.classList.add("fa-check");
+
+      //       // Volta ao ícone original após 2 segundos
+      //       setTimeout(() => {
+      //         icon.classList.remove("fa-check");
+      //         icon.classList.add("fa-copy");
+      //       }, 2000);
+      //     })
+      //     .catch(err => {
+      //       console.error("Erro ao copiar: ", err);
+      //     });
+      // });
+
+      const templatesDiv = document.getElementById('templates-data');
+      const templates = JSON.parse(templatesDiv.dataset.templates);
+
+      const select = document.getElementById('messageStyleSelect');
+      const textarea = document.getElementById('textAreaTemplateMessage');
+
+      select.addEventListener('change', () => {
+        const selected = select.value;
+        textarea.value = templates[selected] || '';
+      });
+
+      const params = new URLSearchParams(window.location.search);
+      const sel = params.getAll('rfvCategories');
+      document.querySelectorAll('.rfv-checkbox').forEach(input => {
+        if (sel.includes(input.value)) input.checked = true;
+      });
+
+      document.addEventListener('DOMContentLoaded', () => {
+
+        const templatesDiv = document.getElementById('templates-data');
+        const templates = JSON.parse(templatesDiv.dataset.templates);
+
+        const select = document.getElementById('messageStyleSelect');
+        const textarea = document.getElementById('textAreaTemplateMessage');
+        const preview = document.getElementById('messagePreview');
+
+        const updateContent = (value) => {
+          const template = textarea.value || templates[value];
+          textarea.value = template;
+
+          // Substitui {{nome}} por um nome fictício para visualização
+          const previewMessage = template
+            .replace(/{{\s*nome\s*}}/gi, 'Alice')
+            .replace(/{{\s*loja\s*}}/gi, 'Loja XPTO')
+            .replace(/{{\s*produto1\s*}}/gi, 'Produto 1')
+            .replace(/{{\s*produto2\s*}}/gi, 'Produto 2')
+
+          // Se quiser converter quebras de linha em <br>
+          const formatted = previewMessage.replace(/\n/g, '<br>');
+
+          preview.innerHTML = `<p>${formatted}</p><div class="time">11:45 <i class="fas fa-check-double"></i></div>`;
+        };
+
+        select.addEventListener('change', () => {
+          updateContent(select.value);
+        });
+
+        textarea.addEventListener('change', () => {
+          updateContent(select.value);
+        });
+
+        // Inicializa ao carregar a tela
+        updateContent(select.value);
+
+        // Define o valor do textarea com base na opção selecionada no carregamento
+        const initialValue = select.value;
+        if (initialValue && templates[initialValue]) {
+          textarea.value = templates[initialValue];
+        }
+
+
+        // toggle
+        const toggle = document.getElementById('toggleSelectAll');
+        const tableCard = document.querySelector('.card.shadow.mb-4'); // o contêiner da tabela
+
+        toggle.addEventListener('change', function () {
+          if (this.checked) {
+            tableCard.style.display = 'block';
+          } else {
+            tableCard.style.display = 'none';
+          }
+        });
+      });
+    </script>
+</body>
+
+</html>

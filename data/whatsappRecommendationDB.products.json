@@ -1,0 +1,5200 @@
+[{
+  "_id": {
+    "$oid": "6831c9dfb2b0e6a8733bca1a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfb2b0e6a8733bca1a",
+  "sku": "SKU-936327",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Moletom Preto Inverno 2025",
+  "productUuid": "6831c9df34308cacf03f3b00",
+  "stockQuantity": 20,
+  "price": 206.84,
+  "imageUrl": "https://example.com/public/6831c9dfb2b0e6a8733bca1a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfca2ed42fba2438f0"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfca2ed42fba2438f0",
+  "sku": "SKU-675432",
+  "size": "P",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Jaqueta",
+  "productName": "Jaqueta Preto Inverno 2025",
+  "productUuid": "6831c9df87995a2c82c7b34e",
+  "stockQuantity": 25,
+  "price": 111.43,
+  "imageUrl": "https://example.com/public/6831c9dfca2ed42fba2438f0.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df9e52c78482e063f3"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df9e52c78482e063f3",
+  "sku": "SKU-684702",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Jaqueta",
+  "productName": "Short Amarelo Verão 2025",
+  "productUuid": "6831c9df87ec3f29d0b554ec",
+  "stockQuantity": 11,
+  "price": 282.85,
+  "imageUrl": "https://example.com/public/6831c9df9e52c78482e063f3.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfeb3b0f6bf8955159"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfeb3b0f6bf8955159",
+  "sku": "SKU-817099",
+  "size": "GG",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Calça Verde Outono 2025",
+  "productUuid": "6831c9dfa5e08c12c7e45e31",
+  "stockQuantity": 11,
+  "price": 207.39,
+  "imageUrl": "https://example.com/public/6831c9dfeb3b0f6bf8955159.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df07bdab1b8ad2f12a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df07bdab1b8ad2f12a",
+  "sku": "SKU-548562",
+  "size": "GG",
+  "color": "Verde",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Regata Azul Inverno 2025",
+  "productUuid": "6831c9dfa0674ba615d3840d",
+  "stockQuantity": 20,
+  "price": 118.01,
+  "imageUrl": "https://example.com/public/6831c9df07bdab1b8ad2f12a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df9883b96ba95056cb"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df9883b96ba95056cb",
+  "sku": "SKU-405459",
+  "size": "43",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Calça Preto Primavera 2025",
+  "productUuid": "6831c9dff2ee5c25ab142a3f",
+  "stockQuantity": 10,
+  "price": 126.35,
+  "imageUrl": "https://example.com/public/6831c9df9883b96ba95056cb.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df91b4d31bb0f44476"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df91b4d31bb0f44476",
+  "sku": "SKU-431940",
+  "size": "41",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Top",
+  "productName": "Moletom Cinza Verão 2025",
+  "productUuid": "6831c9df52afeebe28a09e43",
+  "stockQuantity": 9,
+  "price": 138.8,
+  "imageUrl": "https://example.com/public/6831c9df91b4d31bb0f44476.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0fbc9b909af4e6ef"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0fbc9b909af4e6ef",
+  "sku": "SKU-329964",
+  "size": "GG",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Jaqueta",
+  "productName": "Top Preto Outono 2025",
+  "productUuid": "6831c9df97977e3af2ebc944",
+  "stockQuantity": 11,
+  "price": 164.43,
+  "imageUrl": "https://example.com/public/6831c9df0fbc9b909af4e6ef.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df67ec0ec56c501fc3"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df67ec0ec56c501fc3",
+  "sku": "SKU-325083",
+  "size": "GG",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Running",
+  "productType": "Calça",
+  "productName": "Tênis Branco Outono 2025",
+  "productUuid": "6831c9dfa9c79adbd045a36a",
+  "stockQuantity": 12,
+  "price": 162.74,
+  "imageUrl": "https://example.com/public/6831c9df67ec0ec56c501fc3.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdf233cf008576e1f"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdf233cf008576e1f",
+  "sku": "SKU-703260",
+  "size": "42",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Running",
+  "productType": "Regata",
+  "productName": "Tênis Azul Primavera 2025",
+  "productUuid": "6831c9df637110ead81dffb3",
+  "stockQuantity": 24,
+  "price": 200.41,
+  "imageUrl": "https://example.com/public/6831c9dfdf233cf008576e1f.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3a39e932b687681a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3a39e932b687681a",
+  "sku": "SKU-561906",
+  "size": "P",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Jaqueta",
+  "productName": "Top Vermelho Primavera 2025",
+  "productUuid": "6831c9dfb64a8034dcb05c6c",
+  "stockQuantity": 15,
+  "price": 197.12,
+  "imageUrl": "https://example.com/public/6831c9df3a39e932b687681a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df409674f8fdcb7aa9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df409674f8fdcb7aa9",
+  "sku": "SKU-464033",
+  "size": "M",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Jaqueta Verde Inverno 2025",
+  "productUuid": "6831c9dfab3b55a429405a4c",
+  "stockQuantity": 20,
+  "price": 166.53,
+  "imageUrl": "https://example.com/public/6831c9df409674f8fdcb7aa9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df9ada9c78b8570280"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df9ada9c78b8570280",
+  "sku": "SKU-975526",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Calça Branco Verão 2025",
+  "productUuid": "6831c9df199f1042f7ff578c",
+  "stockQuantity": 8,
+  "price": 127.44,
+  "imageUrl": "https://example.com/public/6831c9df9ada9c78b8570280.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df85a996dad92547e1"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df85a996dad92547e1",
+  "sku": "SKU-341121",
+  "size": "GG",
+  "color": "Preto",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Top Vermelho Verão 2025",
+  "productUuid": "6831c9df8ff242cd304293e3",
+  "stockQuantity": 29,
+  "price": 295.17,
+  "imageUrl": "https://example.com/public/6831c9df85a996dad92547e1.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd11e2b7beec1778b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd11e2b7beec1778b",
+  "sku": "SKU-997692",
+  "size": "GG",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Tênis Azul Primavera 2025",
+  "productUuid": "6831c9dfa38ed27b96b3a2d6",
+  "stockQuantity": 19,
+  "price": 170.25,
+  "imageUrl": "https://example.com/public/6831c9dfd11e2b7beec1778b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df2efcbaa9395a11fe"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df2efcbaa9395a11fe",
+  "sku": "SKU-147487",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Regata",
+  "productName": "Tênis Verde Verão 2025",
+  "productUuid": "6831c9dfa3e42c89822bf93e",
+  "stockQuantity": 5,
+  "price": 77.68,
+  "imageUrl": "https://example.com/public/6831c9df2efcbaa9395a11fe.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdf227b63272b6cb4"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdf227b63272b6cb4",
+  "sku": "SKU-524946",
+  "size": "GG",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Jaqueta",
+  "productName": "Tênis Amarelo Verão 2025",
+  "productUuid": "6831c9dfc98684f0421b4b36",
+  "stockQuantity": 9,
+  "price": 98.49,
+  "imageUrl": "https://example.com/public/6831c9dfdf227b63272b6cb4.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df9df7ad8e0c7c725d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df9df7ad8e0c7c725d",
+  "sku": "SKU-989736",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Short Amarelo Outono 2025",
+  "productUuid": "6831c9df4350a8665061b7df",
+  "stockQuantity": 22,
+  "price": 126.05,
+  "imageUrl": "https://example.com/public/6831c9df9df7ad8e0c7c725d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7145be99d7114d12"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7145be99d7114d12",
+  "sku": "SKU-357553",
+  "size": "P",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Tênis Preto Outono 2025",
+  "productUuid": "6831c9dfaf20166ebab38ddd",
+  "stockQuantity": 25,
+  "price": 56.98,
+  "imageUrl": "https://example.com/public/6831c9df7145be99d7114d12.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1b9d550520e741cc"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1b9d550520e741cc",
+  "sku": "SKU-312998",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Top Preto Inverno 2025",
+  "productUuid": "6831c9dfe7f5be616c949cac",
+  "stockQuantity": 6,
+  "price": 228.28,
+  "imageUrl": "https://example.com/public/6831c9df1b9d550520e741cc.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df88470eadbd24ffa2"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df88470eadbd24ffa2",
+  "sku": "SKU-229305",
+  "size": "43",
+  "color": "Vermelho",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Moletom Vermelho Inverno 2025",
+  "productUuid": "6831c9df49211d5a3d514871",
+  "stockQuantity": 23,
+  "price": 145.28,
+  "imageUrl": "https://example.com/public/6831c9df88470eadbd24ffa2.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df6f5b16ebf83d5925"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df6f5b16ebf83d5925",
+  "sku": "SKU-878177",
+  "size": "GG",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Regata Verde Primavera 2025",
+  "productUuid": "6831c9df7d715407fd71cf08",
+  "stockQuantity": 5,
+  "price": 270.75,
+  "imageUrl": "https://example.com/public/6831c9df6f5b16ebf83d5925.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df649dcc70d5b2cda8"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df649dcc70d5b2cda8",
+  "sku": "SKU-998753",
+  "size": "GG",
+  "color": "Azul",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Regata Amarelo Primavera 2025",
+  "productUuid": "6831c9dfbe1f7b88cd2cf007",
+  "stockQuantity": 23,
+  "price": 258.62,
+  "imageUrl": "https://example.com/public/6831c9df649dcc70d5b2cda8.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df726fa1dd66a000e8"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df726fa1dd66a000e8",
+  "sku": "SKU-686227",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Regata Branco Inverno 2025",
+  "productUuid": "6831c9df95b3c8fa4a119c0a",
+  "stockQuantity": 8,
+  "price": 200.86,
+  "imageUrl": "https://example.com/public/6831c9df726fa1dd66a000e8.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7fface3af295418e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7fface3af295418e",
+  "sku": "SKU-612804",
+  "size": "M",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Top",
+  "productName": "Short Verde Outono 2025",
+  "productUuid": "6831c9df1eaa0c03713c5b1f",
+  "stockQuantity": 30,
+  "price": 273.91,
+  "imageUrl": "https://example.com/public/6831c9df7fface3af295418e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df39f1ebe858373902"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df39f1ebe858373902",
+  "sku": "SKU-104115",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Jaqueta",
+  "productName": "Tênis Cinza Inverno 2025",
+  "productUuid": "6831c9df155f88efea83affe",
+  "stockQuantity": 25,
+  "price": 135.99,
+  "imageUrl": "https://example.com/public/6831c9df39f1ebe858373902.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdfad4c5c5e4ae806"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdfad4c5c5e4ae806",
+  "sku": "SKU-794482",
+  "size": "43",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Jaqueta Amarelo Outono 2025",
+  "productUuid": "6831c9df68fad67680bee3e1",
+  "stockQuantity": 6,
+  "price": 227.56,
+  "imageUrl": "https://example.com/public/6831c9dfdfad4c5c5e4ae806.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df311477e13cc0ebc9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df311477e13cc0ebc9",
+  "sku": "SKU-522450",
+  "size": "GG",
+  "color": "Vermelho",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Short Verde Inverno 2025",
+  "productUuid": "6831c9df0f7c98136b9ec353",
+  "stockQuantity": 17,
+  "price": 176.88,
+  "imageUrl": "https://example.com/public/6831c9df311477e13cc0ebc9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfee3c8e131f6ef15e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfee3c8e131f6ef15e",
+  "sku": "SKU-489825",
+  "size": "42",
+  "color": "Vermelho",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Top Cinza Primavera 2025",
+  "productUuid": "6831c9df5d2ee0af46183803",
+  "stockQuantity": 14,
+  "price": 88.93,
+  "imageUrl": "https://example.com/public/6831c9dfee3c8e131f6ef15e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df68b5f6a43e470c2e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df68b5f6a43e470c2e",
+  "sku": "SKU-721992",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Tênis Vermelho Outono 2025",
+  "productUuid": "6831c9df1d8dd44dc95800ec",
+  "stockQuantity": 26,
+  "price": 264.51,
+  "imageUrl": "https://example.com/public/6831c9df68b5f6a43e470c2e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0de19a213d744b3d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0de19a213d744b3d",
+  "sku": "SKU-247559",
+  "size": "43",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Tênis",
+  "productName": "Tênis Branco Verão 2025",
+  "productUuid": "6831c9dfb6df09b5c8f96fe1",
+  "stockQuantity": 14,
+  "price": 169.43,
+  "imageUrl": "https://example.com/public/6831c9df0de19a213d744b3d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdb786263bb202691"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdb786263bb202691",
+  "sku": "SKU-764927",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Tênis Cinza Verão 2025",
+  "productUuid": "6831c9dfd0fecc72ec83e4df",
+  "stockQuantity": 20,
+  "price": 85.61,
+  "imageUrl": "https://example.com/public/6831c9dfdb786263bb202691.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df074480b034a78600"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df074480b034a78600",
+  "sku": "SKU-428984",
+  "size": "G",
+  "color": "Verde",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Tênis",
+  "productName": "Regata Preto Verão 2025",
+  "productUuid": "6831c9df6e48cec09f648f2e",
+  "stockQuantity": 18,
+  "price": 146.79,
+  "imageUrl": "https://example.com/public/6831c9df074480b034a78600.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df402cc8276350b3c8"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df402cc8276350b3c8",
+  "sku": "SKU-489145",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Moletom Branco Outono 2025",
+  "productUuid": "6831c9df1bf70f104f7cd7ee",
+  "stockQuantity": 28,
+  "price": 55.16,
+  "imageUrl": "https://example.com/public/6831c9df402cc8276350b3c8.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df2a61ad119bfd0104"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df2a61ad119bfd0104",
+  "sku": "SKU-499722",
+  "size": "41",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Short Branco Outono 2025",
+  "productUuid": "6831c9df502a257f1a7c9aaa",
+  "stockQuantity": 11,
+  "price": 222.82,
+  "imageUrl": "https://example.com/public/6831c9df2a61ad119bfd0104.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfb3cf6876b633fc28"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfb3cf6876b633fc28",
+  "sku": "SKU-674148",
+  "size": "GG",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Short Preto Outono 2025",
+  "productUuid": "6831c9df3a7f4ea2c55a2f18",
+  "stockQuantity": 6,
+  "price": 156.08,
+  "imageUrl": "https://example.com/public/6831c9dfb3cf6876b633fc28.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df98e088a1b23b34b9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df98e088a1b23b34b9",
+  "sku": "SKU-499900",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Moletom",
+  "productName": "Short Verde Primavera 2025",
+  "productUuid": "6831c9df88ee96a4cd8f4693",
+  "stockQuantity": 23,
+  "price": 96.61,
+  "imageUrl": "https://example.com/public/6831c9df98e088a1b23b34b9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3e1bc6cce95b0cdb"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3e1bc6cce95b0cdb",
+  "sku": "SKU-672336",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Tênis Azul Outono 2025",
+  "productUuid": "6831c9dfa99581a4eb4aec07",
+  "stockQuantity": 21,
+  "price": 94.95,
+  "imageUrl": "https://example.com/public/6831c9df3e1bc6cce95b0cdb.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df219f49dbecf9c772"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df219f49dbecf9c772",
+  "sku": "SKU-921601",
+  "size": "41",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Regata Cinza Outono 2025",
+  "productUuid": "6831c9df6c01568ce1725d6c",
+  "stockQuantity": 6,
+  "price": 216,
+  "imageUrl": "https://example.com/public/6831c9df219f49dbecf9c772.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df56637633a0682025"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df56637633a0682025",
+  "sku": "SKU-186081",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Top",
+  "productName": "Calça Vermelho Primavera 2025",
+  "productUuid": "6831c9df6a8b96b51d4ebe41",
+  "stockQuantity": 9,
+  "price": 220.31,
+  "imageUrl": "https://example.com/public/6831c9df56637633a0682025.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5e0257594e085647"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5e0257594e085647",
+  "sku": "SKU-752343",
+  "size": "M",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Tênis Azul Outono 2025",
+  "productUuid": "6831c9dfe9af69d22247e18a",
+  "stockQuantity": 28,
+  "price": 220.21,
+  "imageUrl": "https://example.com/public/6831c9df5e0257594e085647.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7ac1e676a90ca336"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7ac1e676a90ca336",
+  "sku": "SKU-608014",
+  "size": "43",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Moletom Vermelho Outono 2025",
+  "productUuid": "6831c9df9e9518a8016e8bde",
+  "stockQuantity": 16,
+  "price": 65.64,
+  "imageUrl": "https://example.com/public/6831c9df7ac1e676a90ca336.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfaca1f152bc9e68b5"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfaca1f152bc9e68b5",
+  "sku": "SKU-112914",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Moletom",
+  "productName": "Top Vermelho Inverno 2025",
+  "productUuid": "6831c9df8dfb9a7faae2e0a0",
+  "stockQuantity": 13,
+  "price": 85.36,
+  "imageUrl": "https://example.com/public/6831c9dfaca1f152bc9e68b5.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1864ef353b665a24"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1864ef353b665a24",
+  "sku": "SKU-755555",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Regata",
+  "productName": "Tênis Amarelo Verão 2025",
+  "productUuid": "6831c9df2a3d09a09060e0f5",
+  "stockQuantity": 26,
+  "price": 157.57,
+  "imageUrl": "https://example.com/public/6831c9df1864ef353b665a24.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df443e6ac7c881c9d5"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df443e6ac7c881c9d5",
+  "sku": "SKU-235085",
+  "size": "42",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Tênis Azul Inverno 2025",
+  "productUuid": "6831c9df14b4d4319c261e4f",
+  "stockQuantity": 22,
+  "price": 96.27,
+  "imageUrl": "https://example.com/public/6831c9df443e6ac7c881c9d5.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfaeba1c5772dadcbb"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfaeba1c5772dadcbb",
+  "sku": "SKU-674331",
+  "size": "43",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Regata Verde Primavera 2025",
+  "productUuid": "6831c9df75b07b77a5c79be6",
+  "stockQuantity": 30,
+  "price": 258.82,
+  "imageUrl": "https://example.com/public/6831c9dfaeba1c5772dadcbb.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfa5ad3bd41eca4a56"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfa5ad3bd41eca4a56",
+  "sku": "SKU-180963",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Moletom Preto Inverno 2025",
+  "productUuid": "6831c9df633914c58d8e62d9",
+  "stockQuantity": 11,
+  "price": 107.21,
+  "imageUrl": "https://example.com/public/6831c9dfa5ad3bd41eca4a56.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe23209d0592b5dfd"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe23209d0592b5dfd",
+  "sku": "SKU-424378",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Short Cinza Verão 2025",
+  "productUuid": "6831c9dfc27b9e5785305b8a",
+  "stockQuantity": 22,
+  "price": 257.01,
+  "imageUrl": "https://example.com/public/6831c9dfe23209d0592b5dfd.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd4e386f762923042"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd4e386f762923042",
+  "sku": "SKU-137594",
+  "size": "G",
+  "color": "Vermelho",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Jaqueta",
+  "productName": "Short Amarelo Verão 2025",
+  "productUuid": "6831c9df243960c7a95d7736",
+  "stockQuantity": 26,
+  "price": 177.34,
+  "imageUrl": "https://example.com/public/6831c9dfd4e386f762923042.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df6d76c40b387839b5"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df6d76c40b387839b5",
+  "sku": "SKU-695703",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Top",
+  "productName": "Calça Azul Verão 2025",
+  "productUuid": "6831c9dfe7bf1186224d46bf",
+  "stockQuantity": 15,
+  "price": 154.09,
+  "imageUrl": "https://example.com/public/6831c9df6d76c40b387839b5.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df77e551828aac7b14"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df77e551828aac7b14",
+  "sku": "SKU-936308",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Tênis Vermelho Inverno 2025",
+  "productUuid": "6831c9df834fb1e7c7f22a9b",
+  "stockQuantity": 13,
+  "price": 133.29,
+  "imageUrl": "https://example.com/public/6831c9df77e551828aac7b14.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5b75f32ed12322a3"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5b75f32ed12322a3",
+  "sku": "SKU-291183",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Regata Verde Primavera 2025",
+  "productUuid": "6831c9df5ae79608b7282c94",
+  "stockQuantity": 20,
+  "price": 238.22,
+  "imageUrl": "https://example.com/public/6831c9df5b75f32ed12322a3.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0d3c5ea7b8b68712"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0d3c5ea7b8b68712",
+  "sku": "SKU-373094",
+  "size": "M",
+  "color": "Preto",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Tênis Preto Outono 2025",
+  "productUuid": "6831c9df4e4f0cf5808a90ee",
+  "stockQuantity": 26,
+  "price": 159.1,
+  "imageUrl": "https://example.com/public/6831c9df0d3c5ea7b8b68712.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdbdb35c9c4258ea9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdbdb35c9c4258ea9",
+  "sku": "SKU-875015",
+  "size": "G",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Tênis Branco Inverno 2025",
+  "productUuid": "6831c9df1b03443293ec974e",
+  "stockQuantity": 22,
+  "price": 239.39,
+  "imageUrl": "https://example.com/public/6831c9dfdbdb35c9c4258ea9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd820c037b606c269"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd820c037b606c269",
+  "sku": "SKU-394605",
+  "size": "P",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Calça Azul Outono 2025",
+  "productUuid": "6831c9df03701659b3fef116",
+  "stockQuantity": 22,
+  "price": 51.78,
+  "imageUrl": "https://example.com/public/6831c9dfd820c037b606c269.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df93538bfeeab99f94"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df93538bfeeab99f94",
+  "sku": "SKU-703692",
+  "size": "M",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Running",
+  "productType": "Moletom",
+  "productName": "Top Cinza Verão 2025",
+  "productUuid": "6831c9df6a0f6010f6cf7c65",
+  "stockQuantity": 5,
+  "price": 56.32,
+  "imageUrl": "https://example.com/public/6831c9df93538bfeeab99f94.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df4c6cd540872144e5"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df4c6cd540872144e5",
+  "sku": "SKU-217322",
+  "size": "41",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Calça",
+  "productName": "Jaqueta Amarelo Outono 2025",
+  "productUuid": "6831c9df82caad9fb34782dd",
+  "stockQuantity": 5,
+  "price": 262.25,
+  "imageUrl": "https://example.com/public/6831c9df4c6cd540872144e5.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df78cc1d8f402bc045"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df78cc1d8f402bc045",
+  "sku": "SKU-829897",
+  "size": "41",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Short",
+  "productName": "Short Azul Outono 2025",
+  "productUuid": "6831c9df4ff80971c14da2f9",
+  "stockQuantity": 13,
+  "price": 100.2,
+  "imageUrl": "https://example.com/public/6831c9df78cc1d8f402bc045.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfa0e944971a51479c"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfa0e944971a51479c",
+  "sku": "SKU-311521",
+  "size": "P",
+  "color": "Verde",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Tênis Amarelo Verão 2025",
+  "productUuid": "6831c9df5c49f748c4a32775",
+  "stockQuantity": 6,
+  "price": 173.73,
+  "imageUrl": "https://example.com/public/6831c9dfa0e944971a51479c.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df00bb515ef838ee60"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df00bb515ef838ee60",
+  "sku": "SKU-639197",
+  "size": "G",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Short Vermelho Outono 2025",
+  "productUuid": "6831c9df6068ca36e9e5e5f0",
+  "stockQuantity": 18,
+  "price": 53.38,
+  "imageUrl": "https://example.com/public/6831c9df00bb515ef838ee60.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df09888356e186e044"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df09888356e186e044",
+  "sku": "SKU-193287",
+  "size": "P",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Regata Cinza Outono 2025",
+  "productUuid": "6831c9dfeee02d80d4f7b8cf",
+  "stockQuantity": 9,
+  "price": 234.56,
+  "imageUrl": "https://example.com/public/6831c9df09888356e186e044.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfafd49e8681833571"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfafd49e8681833571",
+  "sku": "SKU-282512",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Moletom",
+  "productName": "Tênis Cinza Primavera 2025",
+  "productUuid": "6831c9df31e1e3d84109cdcb",
+  "stockQuantity": 24,
+  "price": 129.51,
+  "imageUrl": "https://example.com/public/6831c9dfafd49e8681833571.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df4c8d21c2b699ff97"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df4c8d21c2b699ff97",
+  "sku": "SKU-534005",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Calça Amarelo Verão 2025",
+  "productUuid": "6831c9df0a733a5151f22c98",
+  "stockQuantity": 25,
+  "price": 140.11,
+  "imageUrl": "https://example.com/public/6831c9df4c8d21c2b699ff97.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df732c26828daf5934"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df732c26828daf5934",
+  "sku": "SKU-814870",
+  "size": "41",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Jaqueta Azul Verão 2025",
+  "productUuid": "6831c9dfc90377f6f3a58525",
+  "stockQuantity": 30,
+  "price": 62.54,
+  "imageUrl": "https://example.com/public/6831c9df732c26828daf5934.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1a73d1694d0687e0"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1a73d1694d0687e0",
+  "sku": "SKU-254352",
+  "size": "P",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Top Verde Primavera 2025",
+  "productUuid": "6831c9dfc8ff4ac9bc019492",
+  "stockQuantity": 19,
+  "price": 78.73,
+  "imageUrl": "https://example.com/public/6831c9df1a73d1694d0687e0.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3ed4e1bc0b639297"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3ed4e1bc0b639297",
+  "sku": "SKU-160410",
+  "size": "42",
+  "color": "Azul",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Tênis Verde Primavera 2025",
+  "productUuid": "6831c9df492f86d1528d8aa4",
+  "stockQuantity": 18,
+  "price": 150.5,
+  "imageUrl": "https://example.com/public/6831c9df3ed4e1bc0b639297.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dff689e134a0ff0227"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dff689e134a0ff0227",
+  "sku": "SKU-508115",
+  "size": "GG",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Regata",
+  "productName": "Top Branco Primavera 2025",
+  "productUuid": "6831c9dfe072f209b4e8c5e3",
+  "stockQuantity": 14,
+  "price": 280.48,
+  "imageUrl": "https://example.com/public/6831c9dff689e134a0ff0227.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5a26fc7b594b6438"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5a26fc7b594b6438",
+  "sku": "SKU-897652",
+  "size": "M",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Regata Preto Primavera 2025",
+  "productUuid": "6831c9df90a7317c810eec27",
+  "stockQuantity": 13,
+  "price": 138.85,
+  "imageUrl": "https://example.com/public/6831c9df5a26fc7b594b6438.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df361e090e5c8909ec"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df361e090e5c8909ec",
+  "sku": "SKU-258768",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Calça Preto Outono 2025",
+  "productUuid": "6831c9dfc81d91c2f04ec00a",
+  "stockQuantity": 18,
+  "price": 74.17,
+  "imageUrl": "https://example.com/public/6831c9df361e090e5c8909ec.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df746de67b88cbe9cc"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df746de67b88cbe9cc",
+  "sku": "SKU-727833",
+  "size": "41",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Jaqueta Verde Verão 2025",
+  "productUuid": "6831c9df452ee00d1f1b9732",
+  "stockQuantity": 23,
+  "price": 152.77,
+  "imageUrl": "https://example.com/public/6831c9df746de67b88cbe9cc.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df8d5240f1597efd0d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df8d5240f1597efd0d",
+  "sku": "SKU-987788",
+  "size": "GG",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Top Preto Primavera 2025",
+  "productUuid": "6831c9dfac41f53030604db2",
+  "stockQuantity": 8,
+  "price": 222.8,
+  "imageUrl": "https://example.com/public/6831c9df8d5240f1597efd0d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df919c7768e2fe79c8"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df919c7768e2fe79c8",
+  "sku": "SKU-556580",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Short Preto Primavera 2025",
+  "productUuid": "6831c9dfd01d3da674e69c53",
+  "stockQuantity": 13,
+  "price": 242.75,
+  "imageUrl": "https://example.com/public/6831c9df919c7768e2fe79c8.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfc71b09a313b67bfd"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfc71b09a313b67bfd",
+  "sku": "SKU-231997",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Calça Amarelo Outono 2025",
+  "productUuid": "6831c9df017ddd92690bee18",
+  "stockQuantity": 22,
+  "price": 219.03,
+  "imageUrl": "https://example.com/public/6831c9dfc71b09a313b67bfd.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd2597f80a85828ee"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd2597f80a85828ee",
+  "sku": "SKU-947458",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Moletom",
+  "productName": "Tênis Branco Outono 2025",
+  "productUuid": "6831c9dfcf9c2ab4057915df",
+  "stockQuantity": 17,
+  "price": 84.07,
+  "imageUrl": "https://example.com/public/6831c9dfd2597f80a85828ee.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3b1a8b7c5068025e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3b1a8b7c5068025e",
+  "sku": "SKU-719793",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Running",
+  "productType": "Top",
+  "productName": "Short Verde Outono 2025",
+  "productUuid": "6831c9df55b1d48fa6425036",
+  "stockQuantity": 19,
+  "price": 68.36,
+  "imageUrl": "https://example.com/public/6831c9df3b1a8b7c5068025e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0ca4f39400302898"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0ca4f39400302898",
+  "sku": "SKU-877123",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Tênis",
+  "productName": "Short Verde Verão 2025",
+  "productUuid": "6831c9dfbe401134fb3a03cd",
+  "stockQuantity": 19,
+  "price": 67.53,
+  "imageUrl": "https://example.com/public/6831c9df0ca4f39400302898.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0731a12e948d1894"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0731a12e948d1894",
+  "sku": "SKU-330290",
+  "size": "GG",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Top",
+  "productName": "Jaqueta Branco Verão 2025",
+  "productUuid": "6831c9df15cd826838ae5d8e",
+  "stockQuantity": 15,
+  "price": 250.63,
+  "imageUrl": "https://example.com/public/6831c9df0731a12e948d1894.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df87f4def90b503b93"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df87f4def90b503b93",
+  "sku": "SKU-281967",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Jaqueta Verde Outono 2025",
+  "productUuid": "6831c9df588a5b0ee403b93b",
+  "stockQuantity": 7,
+  "price": 119.35,
+  "imageUrl": "https://example.com/public/6831c9df87f4def90b503b93.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd07f0ea2a8775c96"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd07f0ea2a8775c96",
+  "sku": "SKU-553999",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Short Vermelho Inverno 2025",
+  "productUuid": "6831c9df2e185be261c1387a",
+  "stockQuantity": 30,
+  "price": 62.56,
+  "imageUrl": "https://example.com/public/6831c9dfd07f0ea2a8775c96.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df8f0c8f6be2583a08"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df8f0c8f6be2583a08",
+  "sku": "SKU-594445",
+  "size": "42",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Short Vermelho Outono 2025",
+  "productUuid": "6831c9df839929c969d71a45",
+  "stockQuantity": 24,
+  "price": 285.82,
+  "imageUrl": "https://example.com/public/6831c9df8f0c8f6be2583a08.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df79415621fa3bb3df"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df79415621fa3bb3df",
+  "sku": "SKU-916739",
+  "size": "G",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Calça Vermelho Inverno 2025",
+  "productUuid": "6831c9df2d9b3c6b5afe1b80",
+  "stockQuantity": 11,
+  "price": 194.16,
+  "imageUrl": "https://example.com/public/6831c9df79415621fa3bb3df.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df89f9d3d8fab72fd7"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df89f9d3d8fab72fd7",
+  "sku": "SKU-766430",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Short Branco Verão 2025",
+  "productUuid": "6831c9dfb4280166f65d4bed",
+  "stockQuantity": 19,
+  "price": 108.22,
+  "imageUrl": "https://example.com/public/6831c9df89f9d3d8fab72fd7.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3d08115e8421bb0e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3d08115e8421bb0e",
+  "sku": "SKU-584264",
+  "size": "G",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Top",
+  "productName": "Top Vermelho Outono 2025",
+  "productUuid": "6831c9dfda14a753e6c1ec9b",
+  "stockQuantity": 30,
+  "price": 98.91,
+  "imageUrl": "https://example.com/public/6831c9df3d08115e8421bb0e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3559c44b88c04065"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3559c44b88c04065",
+  "sku": "SKU-297837",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Calça Preto Outono 2025",
+  "productUuid": "6831c9df71643ab595cc336d",
+  "stockQuantity": 21,
+  "price": 178.53,
+  "imageUrl": "https://example.com/public/6831c9df3559c44b88c04065.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdeb753d1ce751e6f"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdeb753d1ce751e6f",
+  "sku": "SKU-553284",
+  "size": "42",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Running",
+  "productType": "Moletom",
+  "productName": "Regata Cinza Outono 2025",
+  "productUuid": "6831c9df09a450cb0979b5bb",
+  "stockQuantity": 17,
+  "price": 183.72,
+  "imageUrl": "https://example.com/public/6831c9dfdeb753d1ce751e6f.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df942f071228bc55a0"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df942f071228bc55a0",
+  "sku": "SKU-635692",
+  "size": "GG",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Tênis Branco Inverno 2025",
+  "productUuid": "6831c9dfcc355188d547d39e",
+  "stockQuantity": 10,
+  "price": 269.23,
+  "imageUrl": "https://example.com/public/6831c9df942f071228bc55a0.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df2bfd7906ed53b952"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df2bfd7906ed53b952",
+  "sku": "SKU-297594",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Jaqueta",
+  "productName": "Short Preto Verão 2025",
+  "productUuid": "6831c9df649c54be271da469",
+  "stockQuantity": 7,
+  "price": 271.94,
+  "imageUrl": "https://example.com/public/6831c9df2bfd7906ed53b952.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dff3ddbf0757a4c21d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dff3ddbf0757a4c21d",
+  "sku": "SKU-176353",
+  "size": "P",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Regata Amarelo Inverno 2025",
+  "productUuid": "6831c9df2eb2a593fb466841",
+  "stockQuantity": 26,
+  "price": 111.16,
+  "imageUrl": "https://example.com/public/6831c9dff3ddbf0757a4c21d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfff2e6fffb8985c6e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfff2e6fffb8985c6e",
+  "sku": "SKU-460376",
+  "size": "M",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Regata Preto Inverno 2025",
+  "productUuid": "6831c9df7fe4a79501703a9e",
+  "stockQuantity": 19,
+  "price": 156.86,
+  "imageUrl": "https://example.com/public/6831c9dfff2e6fffb8985c6e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df56a6745c0722f3ff"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df56a6745c0722f3ff",
+  "sku": "SKU-962586",
+  "size": "G",
+  "color": "Amarelo",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Jaqueta",
+  "productName": "Jaqueta Preto Primavera 2025",
+  "productUuid": "6831c9dfc0b34bb6929da498",
+  "stockQuantity": 15,
+  "price": 211.5,
+  "imageUrl": "https://example.com/public/6831c9df56a6745c0722f3ff.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df86bdc5e145c53498"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df86bdc5e145c53498",
+  "sku": "SKU-219853",
+  "size": "41",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Calça Amarelo Primavera 2025",
+  "productUuid": "6831c9df495c6012419f0c91",
+  "stockQuantity": 30,
+  "price": 87.68,
+  "imageUrl": "https://example.com/public/6831c9df86bdc5e145c53498.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd63212544437393a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd63212544437393a",
+  "sku": "SKU-365153",
+  "size": "43",
+  "color": "Vermelho",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Regata Verde Primavera 2025",
+  "productUuid": "6831c9df894e1bffe289d7a8",
+  "stockQuantity": 7,
+  "price": 211.92,
+  "imageUrl": "https://example.com/public/6831c9dfd63212544437393a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5b8bbcf592b0abc7"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5b8bbcf592b0abc7",
+  "sku": "SKU-389820",
+  "size": "41",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Calça Vermelho Inverno 2025",
+  "productUuid": "6831c9df939b4ba6a0103b64",
+  "stockQuantity": 30,
+  "price": 81.45,
+  "imageUrl": "https://example.com/public/6831c9df5b8bbcf592b0abc7.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0cfd0bead7c06610"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0cfd0bead7c06610",
+  "sku": "SKU-458642",
+  "size": "P",
+  "color": "Vermelho",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Short Branco Inverno 2025",
+  "productUuid": "6831c9df0bf795bb7f2ae139",
+  "stockQuantity": 11,
+  "price": 271.53,
+  "imageUrl": "https://example.com/public/6831c9df0cfd0bead7c06610.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df63d2e1d8b2e379a5"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df63d2e1d8b2e379a5",
+  "sku": "SKU-237003",
+  "size": "G",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Regata",
+  "productName": "Short Vermelho Outono 2025",
+  "productUuid": "6831c9df5e2062b25fd6cb1c",
+  "stockQuantity": 23,
+  "price": 65.58,
+  "imageUrl": "https://example.com/public/6831c9df63d2e1d8b2e379a5.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfba51fdf316016840"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfba51fdf316016840",
+  "sku": "SKU-850822",
+  "size": "M",
+  "color": "Azul",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Top Preto Outono 2025",
+  "productUuid": "6831c9df7c52857ff8a1d561",
+  "stockQuantity": 25,
+  "price": 53.29,
+  "imageUrl": "https://example.com/public/6831c9dfba51fdf316016840.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdb27620e92149e5d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdb27620e92149e5d",
+  "sku": "SKU-595753",
+  "size": "41",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Calça Preto Verão 2025",
+  "productUuid": "6831c9dfc882e1f9f575bed3",
+  "stockQuantity": 27,
+  "price": 93.89,
+  "imageUrl": "https://example.com/public/6831c9dfdb27620e92149e5d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfcbd5c59e3bdc0609"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfcbd5c59e3bdc0609",
+  "sku": "SKU-239736",
+  "size": "GG",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Calça Vermelho Primavera 2025",
+  "productUuid": "6831c9df8d78e7077414dc00",
+  "stockQuantity": 12,
+  "price": 242.08,
+  "imageUrl": "https://example.com/public/6831c9dfcbd5c59e3bdc0609.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df6dd5c9814143d256"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df6dd5c9814143d256",
+  "sku": "SKU-608492",
+  "size": "GG",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Moletom Azul Primavera 2025",
+  "productUuid": "6831c9dfcd259d4bdf02d83c",
+  "stockQuantity": 27,
+  "price": 159.99,
+  "imageUrl": "https://example.com/public/6831c9df6dd5c9814143d256.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfc5fde611c5e5476a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfc5fde611c5e5476a",
+  "sku": "SKU-838941",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Calça",
+  "productName": "Jaqueta Vermelho Primavera 2025",
+  "productUuid": "6831c9df3f168e45119cb72b",
+  "stockQuantity": 22,
+  "price": 128.08,
+  "imageUrl": "https://example.com/public/6831c9dfc5fde611c5e5476a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dff67454aa13095b74"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dff67454aa13095b74",
+  "sku": "SKU-329140",
+  "size": "42",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Calça Verde Verão 2025",
+  "productUuid": "6831c9df9e5e59025c7d05af",
+  "stockQuantity": 17,
+  "price": 239.28,
+  "imageUrl": "https://example.com/public/6831c9dff67454aa13095b74.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfb32957ef22192479"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfb32957ef22192479",
+  "sku": "SKU-230006",
+  "size": "41",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Top Cinza Inverno 2025",
+  "productUuid": "6831c9dfa2919d4036435584",
+  "stockQuantity": 21,
+  "price": 99.15,
+  "imageUrl": "https://example.com/public/6831c9dfb32957ef22192479.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfa2f2bf69f819d624"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfa2f2bf69f819d624",
+  "sku": "SKU-642378",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Short Cinza Primavera 2025",
+  "productUuid": "6831c9df2112fd33b35278ea",
+  "stockQuantity": 9,
+  "price": 133.68,
+  "imageUrl": "https://example.com/public/6831c9dfa2f2bf69f819d624.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df19dead88a592de0e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df19dead88a592de0e",
+  "sku": "SKU-466973",
+  "size": "41",
+  "color": "Cinza",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Short",
+  "productName": "Top Vermelho Verão 2025",
+  "productUuid": "6831c9df444c04b1f33231b6",
+  "stockQuantity": 18,
+  "price": 220.96,
+  "imageUrl": "https://example.com/public/6831c9df19dead88a592de0e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1e90bb9eedc5ac56"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1e90bb9eedc5ac56",
+  "sku": "SKU-749678",
+  "size": "GG",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Jaqueta Branco Verão 2025",
+  "productUuid": "6831c9dfa1e180fc99f893e8",
+  "stockQuantity": 7,
+  "price": 255.43,
+  "imageUrl": "https://example.com/public/6831c9df1e90bb9eedc5ac56.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df018779e665e96dd2"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df018779e665e96dd2",
+  "sku": "SKU-671075",
+  "size": "41",
+  "color": "Verde",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Top",
+  "productName": "Top Verde Inverno 2025",
+  "productUuid": "6831c9df02545374dd3be587",
+  "stockQuantity": 17,
+  "price": 189.67,
+  "imageUrl": "https://example.com/public/6831c9df018779e665e96dd2.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df6c0f5c58ac11de67"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df6c0f5c58ac11de67",
+  "sku": "SKU-170404",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Jaqueta Preto Verão 2025",
+  "productUuid": "6831c9dfa90efe21e3719d68",
+  "stockQuantity": 21,
+  "price": 222.57,
+  "imageUrl": "https://example.com/public/6831c9df6c0f5c58ac11de67.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df916d9035bece07f6"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df916d9035bece07f6",
+  "sku": "SKU-389393",
+  "size": "42",
+  "color": "Amarelo",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Calça Amarelo Outono 2025",
+  "productUuid": "6831c9df73559da0930a099d",
+  "stockQuantity": 29,
+  "price": 82.11,
+  "imageUrl": "https://example.com/public/6831c9df916d9035bece07f6.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe82ab90a20625427"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe82ab90a20625427",
+  "sku": "SKU-426394",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Regata Cinza Primavera 2025",
+  "productUuid": "6831c9df63b8b7150cd8dae3",
+  "stockQuantity": 26,
+  "price": 155.77,
+  "imageUrl": "https://example.com/public/6831c9dfe82ab90a20625427.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0832432829faa6b2"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0832432829faa6b2",
+  "sku": "SKU-702928",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Short Preto Verão 2025",
+  "productUuid": "6831c9df8b354432e3ab76b3",
+  "stockQuantity": 12,
+  "price": 279.61,
+  "imageUrl": "https://example.com/public/6831c9df0832432829faa6b2.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfacce06b1e7c0be2b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfacce06b1e7c0be2b",
+  "sku": "SKU-800322",
+  "size": "43",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Top",
+  "productName": "Regata Cinza Inverno 2025",
+  "productUuid": "6831c9df8d0bf6a26ff83c60",
+  "stockQuantity": 30,
+  "price": 259.06,
+  "imageUrl": "https://example.com/public/6831c9dfacce06b1e7c0be2b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5da9901b39766fdb"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5da9901b39766fdb",
+  "sku": "SKU-109852",
+  "size": "G",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Short Amarelo Inverno 2025",
+  "productUuid": "6831c9df304f7873720e81a6",
+  "stockQuantity": 8,
+  "price": 113.18,
+  "imageUrl": "https://example.com/public/6831c9df5da9901b39766fdb.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df62c10546946bdef6"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df62c10546946bdef6",
+  "sku": "SKU-456436",
+  "size": "42",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Calça Vermelho Outono 2025",
+  "productUuid": "6831c9dfa20e4b7568978920",
+  "stockQuantity": 7,
+  "price": 169.46,
+  "imageUrl": "https://example.com/public/6831c9df62c10546946bdef6.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe4c2b9343b9fda9a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe4c2b9343b9fda9a",
+  "sku": "SKU-713750",
+  "size": "41",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Short Verde Outono 2025",
+  "productUuid": "6831c9df17bdc61b651d29ce",
+  "stockQuantity": 16,
+  "price": 175.73,
+  "imageUrl": "https://example.com/public/6831c9dfe4c2b9343b9fda9a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df798103449ad61f13"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df798103449ad61f13",
+  "sku": "SKU-748233",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Short Amarelo Verão 2025",
+  "productUuid": "6831c9df49ab40e62cb6df79",
+  "stockQuantity": 27,
+  "price": 203.99,
+  "imageUrl": "https://example.com/public/6831c9df798103449ad61f13.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5cf453025b8c00c9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5cf453025b8c00c9",
+  "sku": "SKU-678700",
+  "size": "42",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Calça Amarelo Outono 2025",
+  "productUuid": "6831c9df9915d6e5eb145693",
+  "stockQuantity": 8,
+  "price": 289.64,
+  "imageUrl": "https://example.com/public/6831c9df5cf453025b8c00c9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdd69bcba69766fd8"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdd69bcba69766fd8",
+  "sku": "SKU-311511",
+  "size": "41",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Short Branco Primavera 2025",
+  "productUuid": "6831c9dfa13a415a9934a9a2",
+  "stockQuantity": 27,
+  "price": 119.87,
+  "imageUrl": "https://example.com/public/6831c9dfdd69bcba69766fd8.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df55d1eec8bc595524"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df55d1eec8bc595524",
+  "sku": "SKU-921113",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Calça Vermelho Outono 2025",
+  "productUuid": "6831c9df2f8afff47421233a",
+  "stockQuantity": 8,
+  "price": 206.43,
+  "imageUrl": "https://example.com/public/6831c9df55d1eec8bc595524.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7f4726fb9435c23f"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7f4726fb9435c23f",
+  "sku": "SKU-692000",
+  "size": "42",
+  "color": "Cinza",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Tênis",
+  "productName": "Top Azul Inverno 2025",
+  "productUuid": "6831c9df7c10f6daa4efbd7b",
+  "stockQuantity": 27,
+  "price": 165.36,
+  "imageUrl": "https://example.com/public/6831c9df7f4726fb9435c23f.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe13b14211dd1d129"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe13b14211dd1d129",
+  "sku": "SKU-733637",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Tênis Verde Inverno 2025",
+  "productUuid": "6831c9df675b903111f7db0f",
+  "stockQuantity": 24,
+  "price": 228.35,
+  "imageUrl": "https://example.com/public/6831c9dfe13b14211dd1d129.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfcde1e251949eba96"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfcde1e251949eba96",
+  "sku": "SKU-171625",
+  "size": "G",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Calça Branco Inverno 2025",
+  "productUuid": "6831c9df704429b7d5577d09",
+  "stockQuantity": 25,
+  "price": 67.03,
+  "imageUrl": "https://example.com/public/6831c9dfcde1e251949eba96.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df25d7fa1ef738ae34"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df25d7fa1ef738ae34",
+  "sku": "SKU-720668",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Top Branco Outono 2025",
+  "productUuid": "6831c9dfcab3b75affe787fc",
+  "stockQuantity": 13,
+  "price": 191.23,
+  "imageUrl": "https://example.com/public/6831c9df25d7fa1ef738ae34.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7f5aaeacaab77c70"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7f5aaeacaab77c70",
+  "sku": "SKU-723008",
+  "size": "M",
+  "color": "Preto",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Moletom",
+  "productName": "Regata Vermelho Inverno 2025",
+  "productUuid": "6831c9df45cccf33d3e28cd4",
+  "stockQuantity": 26,
+  "price": 64.32,
+  "imageUrl": "https://example.com/public/6831c9df7f5aaeacaab77c70.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df84dbe404fc3c49a7"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df84dbe404fc3c49a7",
+  "sku": "SKU-480468",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Moletom",
+  "productName": "Short Branco Primavera 2025",
+  "productUuid": "6831c9df6ec3f71c3ed6e9dd",
+  "stockQuantity": 9,
+  "price": 230.17,
+  "imageUrl": "https://example.com/public/6831c9df84dbe404fc3c49a7.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df536083747bbdf96e"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df536083747bbdf96e",
+  "sku": "SKU-592164",
+  "size": "M",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Top Branco Outono 2025",
+  "productUuid": "6831c9dfa7f8d5e38164745d",
+  "stockQuantity": 11,
+  "price": 110.93,
+  "imageUrl": "https://example.com/public/6831c9df536083747bbdf96e.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7544a5a6883a2457"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7544a5a6883a2457",
+  "sku": "SKU-901526",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Moletom Vermelho Primavera 2025",
+  "productUuid": "6831c9df302332f9c93cd0e9",
+  "stockQuantity": 23,
+  "price": 58.9,
+  "imageUrl": "https://example.com/public/6831c9df7544a5a6883a2457.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df70363fedf37c5ccc"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df70363fedf37c5ccc",
+  "sku": "SKU-719138",
+  "size": "41",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Moletom Amarelo Primavera 2025",
+  "productUuid": "6831c9df1ef6e1bae09a4a7b",
+  "stockQuantity": 8,
+  "price": 233.51,
+  "imageUrl": "https://example.com/public/6831c9df70363fedf37c5ccc.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df00bdea37cf0e05ae"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df00bdea37cf0e05ae",
+  "sku": "SKU-206087",
+  "size": "GG",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Top Preto Inverno 2025",
+  "productUuid": "6831c9dfc518d1a1a31c63d0",
+  "stockQuantity": 16,
+  "price": 159.47,
+  "imageUrl": "https://example.com/public/6831c9df00bdea37cf0e05ae.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd296c5706b9bb2fe"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd296c5706b9bb2fe",
+  "sku": "SKU-388497",
+  "size": "43",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Tênis Amarelo Verão 2025",
+  "productUuid": "6831c9df0d985a89e72dad05",
+  "stockQuantity": 13,
+  "price": 280.53,
+  "imageUrl": "https://example.com/public/6831c9dfd296c5706b9bb2fe.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df6291ef05aa9d9364"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df6291ef05aa9d9364",
+  "sku": "SKU-893026",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Regata Verde Primavera 2025",
+  "productUuid": "6831c9df7e26df4a6944d2f0",
+  "stockQuantity": 21,
+  "price": 248.18,
+  "imageUrl": "https://example.com/public/6831c9df6291ef05aa9d9364.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5613f9c9c758fda6"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5613f9c9c758fda6",
+  "sku": "SKU-349180",
+  "size": "43",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Top Vermelho Outono 2025",
+  "productUuid": "6831c9dff333294032bf2261",
+  "stockQuantity": 21,
+  "price": 131.11,
+  "imageUrl": "https://example.com/public/6831c9df5613f9c9c758fda6.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df83df2c2f5a34f70c"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df83df2c2f5a34f70c",
+  "sku": "SKU-403476",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Top",
+  "productName": "Top Vermelho Inverno 2025",
+  "productUuid": "6831c9dff7225b6b53c4501d",
+  "stockQuantity": 29,
+  "price": 124,
+  "imageUrl": "https://example.com/public/6831c9df83df2c2f5a34f70c.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df4344db1910d14cf3"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df4344db1910d14cf3",
+  "sku": "SKU-927993",
+  "size": "43",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Calça Amarelo Verão 2025",
+  "productUuid": "6831c9df6e7d6301f886ef9a",
+  "stockQuantity": 6,
+  "price": 233.05,
+  "imageUrl": "https://example.com/public/6831c9df4344db1910d14cf3.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df73a47eacfd62194a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df73a47eacfd62194a",
+  "sku": "SKU-263478",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Moletom Branco Outono 2025",
+  "productUuid": "6831c9dfd8f61bcd42e5f673",
+  "stockQuantity": 15,
+  "price": 221.35,
+  "imageUrl": "https://example.com/public/6831c9df73a47eacfd62194a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfc3b364e16b16363a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfc3b364e16b16363a",
+  "sku": "SKU-737028",
+  "size": "42",
+  "color": "Vermelho",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Tênis",
+  "productName": "Tênis Verde Outono 2025",
+  "productUuid": "6831c9df79464233b43c87f4",
+  "stockQuantity": 21,
+  "price": 190.14,
+  "imageUrl": "https://example.com/public/6831c9dfc3b364e16b16363a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df361f82232c9f9860"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df361f82232c9f9860",
+  "sku": "SKU-459947",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Short Cinza Outono 2025",
+  "productUuid": "6831c9df47cd081629e80650",
+  "stockQuantity": 28,
+  "price": 289.9,
+  "imageUrl": "https://example.com/public/6831c9df361f82232c9f9860.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfc8414ae8731f7fc8"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfc8414ae8731f7fc8",
+  "sku": "SKU-300913",
+  "size": "P",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Tênis Cinza Outono 2025",
+  "productUuid": "6831c9df7b502c8a5e9a9e09",
+  "stockQuantity": 8,
+  "price": 87.58,
+  "imageUrl": "https://example.com/public/6831c9dfc8414ae8731f7fc8.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd10c3fde7a2a019a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd10c3fde7a2a019a",
+  "sku": "SKU-471491",
+  "size": "43",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Regata Verde Verão 2025",
+  "productUuid": "6831c9df3422ce3ef30f2322",
+  "stockQuantity": 14,
+  "price": 243.82,
+  "imageUrl": "https://example.com/public/6831c9dfd10c3fde7a2a019a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df78d97ae5ad35e284"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df78d97ae5ad35e284",
+  "sku": "SKU-285089",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Top Preto Inverno 2025",
+  "productUuid": "6831c9df39a186e31c6255e2",
+  "stockQuantity": 7,
+  "price": 79.45,
+  "imageUrl": "https://example.com/public/6831c9df78d97ae5ad35e284.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfc19cca3023fa0b66"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfc19cca3023fa0b66",
+  "sku": "SKU-971193",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Top Branco Inverno 2025",
+  "productUuid": "6831c9dff8f9ef4e48233689",
+  "stockQuantity": 21,
+  "price": 225.15,
+  "imageUrl": "https://example.com/public/6831c9dfc19cca3023fa0b66.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df187a075c3cdd6f1c"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df187a075c3cdd6f1c",
+  "sku": "SKU-844935",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Short Cinza Inverno 2025",
+  "productUuid": "6831c9dfaa982519fb90b5d4",
+  "stockQuantity": 12,
+  "price": 137.48,
+  "imageUrl": "https://example.com/public/6831c9df187a075c3cdd6f1c.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df60edfd4b1e9cc1ec"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df60edfd4b1e9cc1ec",
+  "sku": "SKU-173839",
+  "size": "G",
+  "color": "Amarelo",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Regata",
+  "productName": "Short Verde Inverno 2025",
+  "productUuid": "6831c9dfe5e85154a3716711",
+  "stockQuantity": 13,
+  "price": 170.69,
+  "imageUrl": "https://example.com/public/6831c9df60edfd4b1e9cc1ec.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe640a3e3b7394ca2"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe640a3e3b7394ca2",
+  "sku": "SKU-907248",
+  "size": "42",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Jaqueta Verde Primavera 2025",
+  "productUuid": "6831c9dffbcb7a314586862b",
+  "stockQuantity": 19,
+  "price": 212.04,
+  "imageUrl": "https://example.com/public/6831c9dfe640a3e3b7394ca2.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe70613d54c109196"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe70613d54c109196",
+  "sku": "SKU-383158",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Regata Cinza Verão 2025",
+  "productUuid": "6831c9df99eb071f74faf12e",
+  "stockQuantity": 30,
+  "price": 281.99,
+  "imageUrl": "https://example.com/public/6831c9dfe70613d54c109196.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3e3697617ee5e961"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3e3697617ee5e961",
+  "sku": "SKU-881556",
+  "size": "P",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Moletom",
+  "productName": "Regata Verde Outono 2025",
+  "productUuid": "6831c9df63c6263e1ff44412",
+  "stockQuantity": 23,
+  "price": 105.3,
+  "imageUrl": "https://example.com/public/6831c9df3e3697617ee5e961.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dffc181b4c7994a7b9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dffc181b4c7994a7b9",
+  "sku": "SKU-422639",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Regata Cinza Inverno 2025",
+  "productUuid": "6831c9dfdd90d09f3af6876e",
+  "stockQuantity": 11,
+  "price": 123.31,
+  "imageUrl": "https://example.com/public/6831c9dffc181b4c7994a7b9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1b5de50161a0f808"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1b5de50161a0f808",
+  "sku": "SKU-884010",
+  "size": "42",
+  "color": "Verde",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Top Vermelho Outono 2025",
+  "productUuid": "6831c9df4bb4405a3ed85444",
+  "stockQuantity": 30,
+  "price": 58.67,
+  "imageUrl": "https://example.com/public/6831c9df1b5de50161a0f808.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df647b7217b2e10387"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df647b7217b2e10387",
+  "sku": "SKU-186272",
+  "size": "M",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Calça",
+  "productName": "Short Vermelho Verão 2025",
+  "productUuid": "6831c9dfb1aa71ed712ab796",
+  "stockQuantity": 11,
+  "price": 246.17,
+  "imageUrl": "https://example.com/public/6831c9df647b7217b2e10387.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5fd57f95a47bf1e4"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5fd57f95a47bf1e4",
+  "sku": "SKU-183694",
+  "size": "43",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Jaqueta Preto Primavera 2025",
+  "productUuid": "6831c9df00d110648e0952a8",
+  "stockQuantity": 16,
+  "price": 123.32,
+  "imageUrl": "https://example.com/public/6831c9df5fd57f95a47bf1e4.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df288befec5db50e9b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df288befec5db50e9b",
+  "sku": "SKU-882900",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Primavera 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Top Azul Outono 2025",
+  "productUuid": "6831c9df6416e9dccbee3d84",
+  "stockQuantity": 9,
+  "price": 101.56,
+  "imageUrl": "https://example.com/public/6831c9df288befec5db50e9b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df42cba7f9732c1a0c"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df42cba7f9732c1a0c",
+  "sku": "SKU-188420",
+  "size": "GG",
+  "color": "Vermelho",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Regata Amarelo Inverno 2025",
+  "productUuid": "6831c9dff9d1d879ad1084f6",
+  "stockQuantity": 17,
+  "price": 266.65,
+  "imageUrl": "https://example.com/public/6831c9df42cba7f9732c1a0c.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dffb33e1dc6d0d604b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dffb33e1dc6d0d604b",
+  "sku": "SKU-301383",
+  "size": "P",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Calça Vermelho Primavera 2025",
+  "productUuid": "6831c9dff406efbb50630f14",
+  "stockQuantity": 5,
+  "price": 72.78,
+  "imageUrl": "https://example.com/public/6831c9dffb33e1dc6d0d604b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7dde739a0134e037"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7dde739a0134e037",
+  "sku": "SKU-482358",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Jaqueta Amarelo Primavera 2025",
+  "productUuid": "6831c9dfb4a1b7534f53176f",
+  "stockQuantity": 8,
+  "price": 70.87,
+  "imageUrl": "https://example.com/public/6831c9df7dde739a0134e037.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfeb6c7c58142197a6"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfeb6c7c58142197a6",
+  "sku": "SKU-947879",
+  "size": "G",
+  "color": "Vermelho",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Jaqueta Vermelho Outono 2025",
+  "productUuid": "6831c9dfbbc7e34300c3cd45",
+  "stockQuantity": 28,
+  "price": 73.7,
+  "imageUrl": "https://example.com/public/6831c9dfeb6c7c58142197a6.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfbd039591a9b02ff4"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfbd039591a9b02ff4",
+  "sku": "SKU-400594",
+  "size": "P",
+  "color": "Vermelho",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Regata Azul Verão 2025",
+  "productUuid": "6831c9df25a6cd2a3d7b2047",
+  "stockQuantity": 27,
+  "price": 280.08,
+  "imageUrl": "https://example.com/public/6831c9dfbd039591a9b02ff4.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df9514f746ff593ff3"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df9514f746ff593ff3",
+  "sku": "SKU-427205",
+  "size": "41",
+  "color": "Vermelho",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Calça Vermelho Verão 2025",
+  "productUuid": "6831c9dfe98e36c2fa1128bc",
+  "stockQuantity": 29,
+  "price": 236.98,
+  "imageUrl": "https://example.com/public/6831c9df9514f746ff593ff3.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df8ad5abcf432f77bb"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df8ad5abcf432f77bb",
+  "sku": "SKU-204120",
+  "size": "41",
+  "color": "Amarelo",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Calça",
+  "productName": "Short Amarelo Outono 2025",
+  "productUuid": "6831c9df97f29d017a40c532",
+  "stockQuantity": 5,
+  "price": 216.25,
+  "imageUrl": "https://example.com/public/6831c9df8ad5abcf432f77bb.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df208af16061d9b26f"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df208af16061d9b26f",
+  "sku": "SKU-551457",
+  "size": "42",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Top",
+  "productName": "Jaqueta Amarelo Outono 2025",
+  "productUuid": "6831c9df4570c101d7331db2",
+  "stockQuantity": 28,
+  "price": 148.68,
+  "imageUrl": "https://example.com/public/6831c9df208af16061d9b26f.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df09e9604704229174"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df09e9604704229174",
+  "sku": "SKU-966459",
+  "size": "41",
+  "color": "Preto",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Tênis Preto Verão 2025",
+  "productUuid": "6831c9df6c444ee0556e3172",
+  "stockQuantity": 25,
+  "price": 282.11,
+  "imageUrl": "https://example.com/public/6831c9df09e9604704229174.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfdc9e8c6b3e51eab3"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfdc9e8c6b3e51eab3",
+  "sku": "SKU-373667",
+  "size": "42",
+  "color": "Cinza",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Moletom",
+  "productName": "Moletom Vermelho Inverno 2025",
+  "productUuid": "6831c9dfd0f9eaa73222e119",
+  "stockQuantity": 12,
+  "price": 232.89,
+  "imageUrl": "https://example.com/public/6831c9dfdc9e8c6b3e51eab3.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfa93ed5b38d49e592"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfa93ed5b38d49e592",
+  "sku": "SKU-191360",
+  "size": "P",
+  "color": "Preto",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Regata",
+  "productName": "Jaqueta Azul Primavera 2025",
+  "productUuid": "6831c9df5f8c2649cb0815f0",
+  "stockQuantity": 16,
+  "price": 108.82,
+  "imageUrl": "https://example.com/public/6831c9dfa93ed5b38d49e592.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfb890472e37357a07"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfb890472e37357a07",
+  "sku": "SKU-695655",
+  "size": "P",
+  "color": "Azul",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Short Branco Primavera 2025",
+  "productUuid": "6831c9df82fdf96031106059",
+  "stockQuantity": 22,
+  "price": 225.75,
+  "imageUrl": "https://example.com/public/6831c9dfb890472e37357a07.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfee15e5552e0ebd08"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfee15e5552e0ebd08",
+  "sku": "SKU-696325",
+  "size": "43",
+  "color": "Vermelho",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Top Azul Primavera 2025",
+  "productUuid": "6831c9df2fdf4f877273b06d",
+  "stockQuantity": 27,
+  "price": 276.4,
+  "imageUrl": "https://example.com/public/6831c9dfee15e5552e0ebd08.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df065c8baee0846197"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df065c8baee0846197",
+  "sku": "SKU-149399",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Jaqueta",
+  "productName": "Moletom Cinza Inverno 2025",
+  "productUuid": "6831c9df71696d6aa8853e6d",
+  "stockQuantity": 28,
+  "price": 216.96,
+  "imageUrl": "https://example.com/public/6831c9df065c8baee0846197.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0b0e04095c4d8145"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0b0e04095c4d8145",
+  "sku": "SKU-875903",
+  "size": "M",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Moletom Cinza Primavera 2025",
+  "productUuid": "6831c9df2825040290580b4b",
+  "stockQuantity": 8,
+  "price": 147.57,
+  "imageUrl": "https://example.com/public/6831c9df0b0e04095c4d8145.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5d90977299de3fec"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5d90977299de3fec",
+  "sku": "SKU-773342",
+  "size": "43",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Short",
+  "productName": "Short Cinza Verão 2025",
+  "productUuid": "6831c9df07856bd829627bee",
+  "stockQuantity": 9,
+  "price": 146.51,
+  "imageUrl": "https://example.com/public/6831c9df5d90977299de3fec.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfc07775c5930aa2f7"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfc07775c5930aa2f7",
+  "sku": "SKU-932105",
+  "size": "GG",
+  "color": "Vermelho",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Jaqueta Preto Verão 2025",
+  "productUuid": "6831c9df076056d3c2ef6d6b",
+  "stockQuantity": 25,
+  "price": 128.81,
+  "imageUrl": "https://example.com/public/6831c9dfc07775c5930aa2f7.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df22ed8e21dc75b643"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df22ed8e21dc75b643",
+  "sku": "SKU-340415",
+  "size": "GG",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Tênis",
+  "productName": "Short Preto Primavera 2025",
+  "productUuid": "6831c9df337b6f1b7ebe65a2",
+  "stockQuantity": 15,
+  "price": 258.96,
+  "imageUrl": "https://example.com/public/6831c9df22ed8e21dc75b643.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfb263a954d44a0e4d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfb263a954d44a0e4d",
+  "sku": "SKU-882280",
+  "size": "43",
+  "color": "Vermelho",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Moletom Amarelo Outono 2025",
+  "productUuid": "6831c9df601f9c932415a128",
+  "stockQuantity": 9,
+  "price": 176.25,
+  "imageUrl": "https://example.com/public/6831c9dfb263a954d44a0e4d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfef4f835b3fc7e58b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfef4f835b3fc7e58b",
+  "sku": "SKU-570534",
+  "size": "41",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Top",
+  "productName": "Regata Cinza Inverno 2025",
+  "productUuid": "6831c9dfe3b7b0fc543b8b21",
+  "stockQuantity": 19,
+  "price": 282.14,
+  "imageUrl": "https://example.com/public/6831c9dfef4f835b3fc7e58b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1aa87c9e4dd3cb6a"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1aa87c9e4dd3cb6a",
+  "sku": "SKU-987299",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Regata Cinza Verão 2025",
+  "productUuid": "6831c9dff8fd2be23f737ad6",
+  "stockQuantity": 6,
+  "price": 175.6,
+  "imageUrl": "https://example.com/public/6831c9df1aa87c9e4dd3cb6a.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df74b51556a55eee9d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df74b51556a55eee9d",
+  "sku": "SKU-311922",
+  "size": "41",
+  "color": "Verde",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Short Cinza Inverno 2025",
+  "productUuid": "6831c9df074e6e7b0e68cee0",
+  "stockQuantity": 22,
+  "price": 99.92,
+  "imageUrl": "https://example.com/public/6831c9df74b51556a55eee9d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df2797003f470265cf"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df2797003f470265cf",
+  "sku": "SKU-192325",
+  "size": "41",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Calça",
+  "productName": "Calça Amarelo Inverno 2025",
+  "productUuid": "6831c9dfda25471c6eb3c6c7",
+  "stockQuantity": 18,
+  "price": 179.3,
+  "imageUrl": "https://example.com/public/6831c9df2797003f470265cf.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5ff66fa7cb5e4c6c"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5ff66fa7cb5e4c6c",
+  "sku": "SKU-630831",
+  "size": "P",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Regata Branco Verão 2025",
+  "productUuid": "6831c9df0b8daa3a4a1ffad7",
+  "stockQuantity": 7,
+  "price": 296.78,
+  "imageUrl": "https://example.com/public/6831c9df5ff66fa7cb5e4c6c.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfda04cc72446ea4dc"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfda04cc72446ea4dc",
+  "sku": "SKU-874245",
+  "size": "41",
+  "color": "Azul",
+  "collection": "Primavera 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Jaqueta Cinza Inverno 2025",
+  "productUuid": "6831c9df2993a92fd57fca18",
+  "stockQuantity": 16,
+  "price": 101.54,
+  "imageUrl": "https://example.com/public/6831c9dfda04cc72446ea4dc.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df246dc06202a44e5b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df246dc06202a44e5b",
+  "sku": "SKU-334169",
+  "size": "GG",
+  "color": "Azul",
+  "collection": "Inverno 2025",
+  "category": "Fitness",
+  "productType": "Regata",
+  "productName": "Top Vermelho Outono 2025",
+  "productUuid": "6831c9df7dc32c2d2fdf30b0",
+  "stockQuantity": 19,
+  "price": 226.49,
+  "imageUrl": "https://example.com/public/6831c9df246dc06202a44e5b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfe7ff37eca58a7735"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfe7ff37eca58a7735",
+  "sku": "SKU-472713",
+  "size": "GG",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Top",
+  "productName": "Tênis Amarelo Verão 2025",
+  "productUuid": "6831c9dfb799c0f2a5d6e8e7",
+  "stockQuantity": 15,
+  "price": 52.38,
+  "imageUrl": "https://example.com/public/6831c9dfe7ff37eca58a7735.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df3e3e9fb8e98ba8c4"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df3e3e9fb8e98ba8c4",
+  "sku": "SKU-679616",
+  "size": "M",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Running",
+  "productType": "Moletom",
+  "productName": "Regata Amarelo Primavera 2025",
+  "productUuid": "6831c9df2c3cef2888353281",
+  "stockQuantity": 21,
+  "price": 174.18,
+  "imageUrl": "https://example.com/public/6831c9df3e3e9fb8e98ba8c4.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df2a957b87b017c8f5"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df2a957b87b017c8f5",
+  "sku": "SKU-404509",
+  "size": "G",
+  "color": "Azul",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Tênis Verde Verão 2025",
+  "productUuid": "6831c9df74abf21161ad5cef",
+  "stockQuantity": 11,
+  "price": 265.27,
+  "imageUrl": "https://example.com/public/6831c9df2a957b87b017c8f5.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dff4ead618cd59f4f0"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dff4ead618cd59f4f0",
+  "sku": "SKU-120282",
+  "size": "GG",
+  "color": "Branco",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Calça",
+  "productName": "Calça Verde Verão 2025",
+  "productUuid": "6831c9dfc27889e9164aa2e4",
+  "stockQuantity": 13,
+  "price": 282.32,
+  "imageUrl": "https://example.com/public/6831c9dff4ead618cd59f4f0.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7a2312d52773bd21"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7a2312d52773bd21",
+  "sku": "SKU-306751",
+  "size": "G",
+  "color": "Branco",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Jaqueta",
+  "productName": "Short Cinza Inverno 2025",
+  "productUuid": "6831c9df6f65f964d611e8cd",
+  "stockQuantity": 14,
+  "price": 244.87,
+  "imageUrl": "https://example.com/public/6831c9df7a2312d52773bd21.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfaffb65dbeb82039b"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfaffb65dbeb82039b",
+  "sku": "SKU-388209",
+  "size": "M",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Short",
+  "productName": "Short Branco Outono 2025",
+  "productUuid": "6831c9dfcc1f5cb34b7720b8",
+  "stockQuantity": 30,
+  "price": 111.26,
+  "imageUrl": "https://example.com/public/6831c9dfaffb65dbeb82039b.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5f94ae250186a4f9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5f94ae250186a4f9",
+  "sku": "SKU-609063",
+  "size": "43",
+  "color": "Azul",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Top Cinza Outono 2025",
+  "productUuid": "6831c9df7720c79784be9183",
+  "stockQuantity": 12,
+  "price": 123.72,
+  "imageUrl": "https://example.com/public/6831c9df5f94ae250186a4f9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfcc3c50969f938cf2"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfcc3c50969f938cf2",
+  "sku": "SKU-691756",
+  "size": "42",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Short",
+  "productName": "Top Branco Primavera 2025",
+  "productUuid": "6831c9dfebcc9f87e7a42d10",
+  "stockQuantity": 5,
+  "price": 198.91,
+  "imageUrl": "https://example.com/public/6831c9dfcc3c50969f938cf2.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfa35145033d8657e1"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfa35145033d8657e1",
+  "sku": "SKU-740188",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Calça",
+  "productName": "Calça Amarelo Inverno 2025",
+  "productUuid": "6831c9dfe7cf0441b605dcd2",
+  "stockQuantity": 29,
+  "price": 161.37,
+  "imageUrl": "https://example.com/public/6831c9dfa35145033d8657e1.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0360714b5027223c"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0360714b5027223c",
+  "sku": "SKU-311627",
+  "size": "P",
+  "color": "Cinza",
+  "collection": "Inverno 2025",
+  "category": "Social",
+  "productType": "Jaqueta",
+  "productName": "Tênis Branco Inverno 2025",
+  "productUuid": "6831c9dfd977dcf54aaaff30",
+  "stockQuantity": 16,
+  "price": 160.57,
+  "imageUrl": "https://example.com/public/6831c9df0360714b5027223c.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df7abd80cad83053bd"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df7abd80cad83053bd",
+  "sku": "SKU-829206",
+  "size": "GG",
+  "color": "Verde",
+  "collection": "Inverno 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Top Preto Inverno 2025",
+  "productUuid": "6831c9dfd732d13bda3b807d",
+  "stockQuantity": 24,
+  "price": 62.5,
+  "imageUrl": "https://example.com/public/6831c9df7abd80cad83053bd.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1dce469a9304d0b1"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1dce469a9304d0b1",
+  "sku": "SKU-855036",
+  "size": "43",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Regata Cinza Primavera 2025",
+  "productUuid": "6831c9df159c62c9221d6a05",
+  "stockQuantity": 5,
+  "price": 62.67,
+  "imageUrl": "https://example.com/public/6831c9df1dce469a9304d0b1.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df96337955ffa24b06"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df96337955ffa24b06",
+  "sku": "SKU-331361",
+  "size": "G",
+  "color": "Vermelho",
+  "collection": "Verão 2025",
+  "category": "Running",
+  "productType": "Tênis",
+  "productName": "Short Amarelo Verão 2025",
+  "productUuid": "6831c9dff9834bc1b40948f1",
+  "stockQuantity": 25,
+  "price": 210.55,
+  "imageUrl": "https://example.com/public/6831c9df96337955ffa24b06.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfa4618cf640a91685"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfa4618cf640a91685",
+  "sku": "SKU-517503",
+  "size": "42",
+  "color": "Amarelo",
+  "collection": "Inverno 2025",
+  "category": "Running",
+  "productType": "Top",
+  "productName": "Calça Amarelo Outono 2025",
+  "productUuid": "6831c9df314ea65ee6ec62d4",
+  "stockQuantity": 12,
+  "price": 167.37,
+  "imageUrl": "https://example.com/public/6831c9dfa4618cf640a91685.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dff3d8dc74b583f3bd"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dff3d8dc74b583f3bd",
+  "sku": "SKU-909036",
+  "size": "41",
+  "color": "Cinza",
+  "collection": "Outono 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Top Amarelo Primavera 2025",
+  "productUuid": "6831c9df8dfcf62ae91e7761",
+  "stockQuantity": 28,
+  "price": 168.62,
+  "imageUrl": "https://example.com/public/6831c9dff3d8dc74b583f3bd.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df2ff9c866f95ed286"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df2ff9c866f95ed286",
+  "sku": "SKU-431006",
+  "size": "43",
+  "color": "Amarelo",
+  "collection": "Verão 2025",
+  "category": "Social",
+  "productType": "Regata",
+  "productName": "Calça Cinza Outono 2025",
+  "productUuid": "6831c9dfa8678a6c84151c73",
+  "stockQuantity": 23,
+  "price": 166.8,
+  "imageUrl": "https://example.com/public/6831c9df2ff9c866f95ed286.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dff0e45745db17690d"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dff0e45745db17690d",
+  "sku": "SKU-924452",
+  "size": "42",
+  "color": "Preto",
+  "collection": "Primavera 2025",
+  "category": "Fitness",
+  "productType": "Regata",
+  "productName": "Jaqueta Branco Outono 2025",
+  "productUuid": "6831c9df4aaeb0695fcb37ad",
+  "stockQuantity": 5,
+  "price": 251.56,
+  "imageUrl": "https://example.com/public/6831c9dff0e45745db17690d.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9dfd1acdbabf49dcecd"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9dfd1acdbabf49dcecd",
+  "sku": "SKU-150321",
+  "size": "42",
+  "color": "Branco",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Jaqueta Preto Inverno 2025",
+  "productUuid": "6831c9dff64f1a5288251348",
+  "stockQuantity": 15,
+  "price": 216.15,
+  "imageUrl": "https://example.com/public/6831c9dfd1acdbabf49dcecd.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5b04540be78980d9"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5b04540be78980d9",
+  "sku": "SKU-163057",
+  "size": "G",
+  "color": "Amarelo",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Top",
+  "productName": "Regata Azul Primavera 2025",
+  "productUuid": "6831c9dfff96172a0553c3f4",
+  "stockQuantity": 17,
+  "price": 159.71,
+  "imageUrl": "https://example.com/public/6831c9df5b04540be78980d9.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df0b4c4e2b4f735bfe"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df0b4c4e2b4f735bfe",
+  "sku": "SKU-916085",
+  "size": "GG",
+  "color": "Amarelo",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Short",
+  "productName": "Moletom Cinza Outono 2025",
+  "productUuid": "6831c9dfcdf7a696cdc08a35",
+  "stockQuantity": 28,
+  "price": 136,
+  "imageUrl": "https://example.com/public/6831c9df0b4c4e2b4f735bfe.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df74cb9fa099b08ce4"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df74cb9fa099b08ce4",
+  "sku": "SKU-997906",
+  "size": "42",
+  "color": "Verde",
+  "collection": "Verão 2025",
+  "category": "Fitness",
+  "productType": "Jaqueta",
+  "productName": "Top Azul Outono 2025",
+  "productUuid": "6831c9df925dd5fb1f86bd43",
+  "stockQuantity": 9,
+  "price": 287.93,
+  "imageUrl": "https://example.com/public/6831c9df74cb9fa099b08ce4.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df1f851db3bd1b2608"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df1f851db3bd1b2608",
+  "sku": "SKU-134162",
+  "size": "43",
+  "color": "Verde",
+  "collection": "Outono 2025",
+  "category": "Casual",
+  "productType": "Calça",
+  "productName": "Top Cinza Outono 2025",
+  "productUuid": "6831c9df4edde90efc650cff",
+  "stockQuantity": 19,
+  "price": 235.32,
+  "imageUrl": "https://example.com/public/6831c9df1f851db3bd1b2608.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df93254c137f260a0f"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df93254c137f260a0f",
+  "sku": "SKU-602906",
+  "size": "43",
+  "color": "Preto",
+  "collection": "Verão 2025",
+  "category": "Casual",
+  "productType": "Moletom",
+  "productName": "Moletom Amarelo Outono 2025",
+  "productUuid": "6831c9dfa868aea36ebdd789",
+  "stockQuantity": 17,
+  "price": 228.89,
+  "imageUrl": "https://example.com/public/6831c9df93254c137f260a0f.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6831c9df5985ed89ac6a37a4"
+  },
+  "storeId": {
+    "$oid": "682e7777e5e99eb035208e2f"
+  },
+  "externalId": "6831c9df5985ed89ac6a37a4",
+  "sku": "SKU-541497",
+  "size": "M",
+  "color": "Azul",
+  "collection": "Outono 2025",
+  "category": "Fitness",
+  "productType": "Tênis",
+  "productName": "Calça Preto Primavera 2025",
+  "productUuid": "6831c9dfe768964dc1b11ce7",
+  "stockQuantity": 12,
+  "price": 227.22,
+  "imageUrl": "https://example.com/public/6831c9df5985ed89ac6a37a4.png",
+  "createdAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T14:10:30.123Z"
+  }
+}]

@@ -1,0 +1,64 @@
+.whatsapp-card {
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.whatsapp-header {
+    background-color: #075E54;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.whatsapp-body {
+    background-color: #ECE5DD;
+    padding: 10px;
+    min-height: 200px;
+}
+
+.message {
+    max-width: 70%;
+    padding: 8px 12px;
+    border-radius: 7.5px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.received {
+    background-color: white;
+    align-self: flex-start;
+}
+
+.sent {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.time {
+    font-size: 11px;
+    color: #666;
+    text-align: right;
+    margin-top: 3px;
+}
+
+.whatsapp-footer {
+    background-color: #075E54;
+    height: 10px;
+}

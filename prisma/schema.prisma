@@ -1,0 +1,237 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id        String      @id @default(auto()) @map("_id") @db.ObjectId
+  name      String      @unique
+  rfvRules  RfvRuleSet?
+  stores    Store[]
+  createdAt DateTime?   @default(now())
+
+  @@map("companies")
+}
+
+type RfvRange {
+  min   Int
+  max   Int
+  score Int
+}
+
+type RfvRuleSet {
+  recency   RfvRange[]
+  frequency RfvRange[]
+  value     RfvRange[]
+}
+
+model Store {
+  id                     String                   @id @default(auto()) @map("_id") @db.ObjectId
+  companyId              String                   @db.ObjectId
+  name                   String
+  address                String?
+  products               Product[]
+  clients                Client[]
+  Company                Company                  @relation(fields: [companyId], references: [id])
+  createdAt              DateTime?                @default(now())
+  RecommendationDispatch RecommendationDispatch[]
+
+  @@unique([companyId, name], name: "companyId_name_idx")
+  @@index([companyId])
+  @@map("stores")
+}
+
+model Client {
+  id                     String                 @id @default(auto()) @map("_id") @db.ObjectId
+  storeId                String                 @db.ObjectId
+  externalId             String                 @unique
+  name                   String
+  phone                  String
+  // purchaseHistory        PurchaseHistory[]
+  active                 Boolean                @default(true)
+  // rfv                    Json? // ← Último RFV calculado
+  rfv                    Rfv? // ← Último RFV calculado
+  rfvClassificationLabel String?
+  Store                  Store                  @relation(fields: [storeId], references: [id])
+  createdAt              DateTime               @default(now())
+  updatedAt              DateTime               @updatedAt
+  ClientRecommendation   ClientRecommendation[]
+  ClientRfvHistory       ClientRfvHistory[]
+  Purchase               Purchase[]
+
+  @@index([externalId, storeId])
+  @@index([phone])
+  @@index([name])
+  @@map("clients")
+}
+
+type Rfv {
+  recency             Int
+  frequency           Int
+  value               Float
+  rScore              Int
+  fScore              Int
+  vScore              Int
+  totalScore          Int
+  classificationLabel String
+  calculatedAt        DateTime
+}
+
+model ClientRfvHistory {
+  id                     String   @id @default(auto()) @map("_id") @db.ObjectId
+  clientId               String   @db.ObjectId
+  storeId                String   @db.ObjectId
+  recency                Int?
+  frequency              Int
+  value                  Float
+  rScore                 Int
+  fScore                 Int
+  vScore                 Int
+  totalScore             Int
+  rfvClassificationLabel String?
+  calculatedAt           DateTime @default(now())
+
+  Client Client @relation(fields: [clientId], references: [id])
+
+  @@index([clientId, calculatedAt])
+  @@map("client_rfv_history")
+}
+
+type PurchaseItemSnapshot {
+  category     String
+  productColor String
+  collection   String
+  productName  String
+  productType  String
+  size         String
+}
+
+type PurchaseItem {
+  productId String               @db.ObjectId
+  sku       String
+  quantity  Int
+  price     Float
+  snapshot  PurchaseItemSnapshot
+}
+
+type PurchaseHistory {
+  purchaseDate  DateTime
+  paymentMethod String
+  externalId    String
+  items         PurchaseItem[]
+}
+
+model Purchase {
+  id            String         @id @default(auto()) @map("_id") @db.ObjectId
+  clientId      String         @db.ObjectId
+  storeId       String         @db.ObjectId
+  externalId    String
+  purchaseDate  DateTime
+  paymentMethod String
+  items         PurchaseItem[]
+  createdAt     DateTime       @default(now())
+
+  Client Client @relation(fields: [clientId], references: [id])
+
+  @@index([clientId])
+  @@index([storeId])
+  @@index([externalId])
+  @@map("purchases")
+}
+
+model Product {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  storeId       String   @db.ObjectId
+  externalId    String   @unique
+  sku           String
+  size          String
+  color         String?
+  collection    String?
+  category      String
+  productType   String?
+  productName   String
+  productUuid   String   @unique
+  stockQuantity Int      @default(0)
+  price         Float
+  imageUrl      String?
+  details       Json? // Para atributos adicionais/variáveis
+  Store         Store    @relation(fields: [storeId], references: [id])
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([sku, storeId])
+  @@index([productName])
+  @@index([category])
+  @@index([productType])
+  @@map("products")
+}
+
+model ClientRecommendation {
+  id                  String   @id @default(auto()) @map("_id") @db.ObjectId
+  storeId             String   @db.ObjectId
+  clientId            String   @db.ObjectId
+  recommendedProducts Json
+  processedAt         DateTime @default(now())
+
+  Client Client @relation(fields: [clientId], references: [id])
+
+  @@unique([storeId, clientId, processedAt], name: "storeId_clientId_processedAt_idx")
+  @@index([clientId, processedAt])
+  @@map("client_recommendations")
+}
+
+enum RecipientType {
+  CLIENT
+  ADMIN
+  OPERATOR
+}
+
+enum MessageStatus {
+  SENT
+  DELIVERED
+  READ
+  FAILED
+  QUEUED
+  UNDELIVERED
+}
+
+model Message {
+  id                       String                  @id @default(auto()) @map("_id") @db.ObjectId
+  storeId                  String?                 @db.ObjectId
+  message                  String
+  status                   MessageStatus           @default(SENT)
+  externalId               String
+  recipientId              String?                 @db.ObjectId
+  recipientType            RecipientType?
+  recommendationDispatchId String?                 @db.ObjectId
+  attrs                    Json
+  createdAt                DateTime?               @default(now())
+  RecommendationDispatch   RecommendationDispatch? @relation(fields: [recommendationDispatchId], references: [id])
+
+  @@map("messages")
+}
+
+model RecommendationDispatch {
+  id                  String    @id @default(auto()) @map("_id") @db.ObjectId
+  storeId             String    @db.ObjectId
+  processingStartedAt DateTime?
+  totalContacts       Int
+  totalProducts       Int       @default(0)
+  totalMessages       Int       @default(0) // Total de mensagens a enviar
+  messageSentCount    Int       @default(0) // Mensagens enviadas com sucesso
+  messageFailedCount  Int       @default(0) // Mensagens com falha
+  messagePendingCount Int       @default(0) // Mensagens pendentes
+  rfvCategories       String[]
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  Store   Store     @relation(fields: [storeId], references: [id])
+  Message Message[]
+
+  @@index([storeId, createdAt])
+  @@map("recommendation_dispatches")
+}

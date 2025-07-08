@@ -1,0 +1,28 @@
+# Use a imagem base oficial do Python
+FROM python:3.10-slim
+
+# Habilita o BuildKit para cache avançado
+# ARG DEBIAN_FRONTEND=noninteractive  # Opcional: para evitar prompts
+
+WORKDIR /app
+
+# 1. Copia apenas o requirements.txt primeiro (permite cache de dependências)
+COPY requirements.txt .
+
+# 2. Camada de instalação de dependências do sistema com cache otimizado
+RUN --mount=type=cache,target=/var/cache/apt \
+  --mount=type=cache,target=/var/lib/apt \
+  apt-get update && \
+  apt-get install -y --no-install-recommends \
+  gcc \
+  build-essential \
+  python3-dev \
+  libatlas-base-dev && \
+  rm -rf /var/lib/apt/lists/* && \
+  pip install --upgrade pip && \
+  pip install -r requirements.txt
+
+# 3. Copia o resto do código (após instalar dependências)
+COPY . .
+
+# CMD ["tail", "-f", "/dev/null"]

@@ -1,0 +1,4 @@
+.vscode
+start.sh
+.env
+node_modules

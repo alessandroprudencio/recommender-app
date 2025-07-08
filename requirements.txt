@@ -1,0 +1,8 @@
+numpy<2
+scikit-surprise
+pandas
+lightgbm
+scikit-learn
+pymongo
+python-dotenv
+Faker
