@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = "deployer-key"
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = file("~/.ssh/id_ed25519.pub")
 }
 
 data "aws_ami" "amazon_linux" {
@@ -52,14 +52,15 @@ resource "aws_security_group" "ec2_sg" {
 }
 
 resource "aws_instance" "recommender_app" {
-  ami                    = data.aws_ami.amazon_linux.id
-  instance_type          = "t3.micro"
-  key_name               = aws_key_pair.deployer.key_name
-  security_groups        = [aws_security_group.ec2_sg.name]
+  ami             = data.aws_ami.amazon_linux.id
+  instance_type   = "t3.micro"
+  key_name        = aws_key_pair.deployer.key_name
+  security_groups = [aws_security_group.ec2_sg.name]
 
   user_data = <<-EOF
               #!/bin/bash
               yum update -y
+              yum install -y git
               amazon-linux-extras install docker -y
               curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
               chmod +x /usr/local/bin/docker-compose
@@ -70,7 +71,13 @@ resource "aws_instance" "recommender_app" {
               cd /home/ec2-user
               git clone https://github.com/alessandroprudencio/recommender-app.git
               cd recommender-app
-              docker-compose up -d
+              
+              # Copia arquivo .env local
+              cat > .env << 'ENVEOF'
+              ${file("${path.module}/.env")}
+              ENVEOF
+              
+              docker-compose -f docker-compose.production.yml up -d
             EOF
 
   tags = {

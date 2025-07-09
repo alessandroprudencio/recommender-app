@@ -1,0 +1,73 @@
+services:
+  nginx:
+    container_name: nginx-prod
+    image: nginx:latest
+    restart: "always"
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 5
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./public:/var/www/app/public
+      - ./data/nginx_cache:/tmp/nginx_cache
+    depends_on:
+      - api
+    networks:
+      - app-network
+
+  api:
+    container_name: api-prod
+    build: .
+    restart: "always"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./src:/app/src
+      - ./prisma:/app/prisma
+      - ./data:/app/data
+      - ./public:/app/public
+    env_file:
+      - .env.production
+    environment:
+      - NODE_ENV=production
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+    networks:
+      - app-network
+
+  generate-recommendations:
+    container_name: generate-recommendations-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    restart: "always"
+    command: ["python", "app.py"]
+    env_file:
+      - .env.production
+    volumes:
+      - ./recommendation-app:/app
+      - ./data:/app/data
+    networks:
+      - app-network
+
+  calculate-rfv:
+    container_name: calculate-rfv-prod
+    image: golang:tip-alpine3.21
+    restart: "always"
+    working_dir: /go/src
+    command: ["go", "run", "app.go"]
+    env_file:
+      - .env.production
+    volumes:
+      - ./calculate-rfv-app:/go/src
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
